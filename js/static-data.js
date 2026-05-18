@@ -1,5 +1,5 @@
 /* AUTO-GENERADO por build.js — no editar manualmente */
-/* Build: 2026-05-18T01:56:21.673Z */
+/* Build: 2026-05-18T02:01:42.636Z */
 window.__STATIC_DATA = {
   "releases": [
     {
@@ -189,8 +189,8 @@ window.__STATIC_DATA = {
       "url": "https://rowanunderground.bandcamp.com/album/the-brighter-side-of-suffering-ep-rwn24",
       "title": "The Brighter Side Of Suffering EP",
       "artist": "MÖTA, Frank Sinanthrax, Gustavo Gutierrez, Lautaro Xavier",
-      "description": "",
-      "releaseDate": "18 Apr 2025 00:00:00 GMT",
+      "description": "The Brighter Side of Suffering is a 6-track EP that blends deep techno, emotive atmospheres, and pulsating rhythms. Each track is designed to evoke a sonic narrative that transitions between darkness and light, exploring how suffering can give way to resilience and transformation. With richly textured sounds and meticulously crafted production, this release invites an introspective and emotional listening experience.",
+      "releaseDate": "2025-04-18",
       "coverArt": "https://f4.bcbits.com/img/a0159724883_0.jpg",
       "tracks": [
         {
@@ -225,17 +225,19 @@ window.__STATIC_DATA = {
         }
       ],
       "catalog": "RWN24",
-      "albumId": 331232407,
+      "albumId": "331232407",
       "tags": [],
-      "type": "album"
+      "type": "album",
+      "beatport": "https://www.beatport.com/es/release/the-brighter-side-of-suffering/4998240",
+      "instagram": ""
     },
     {
       "id": "4112705198",
       "url": "https://rowanunderground.bandcamp.com/album/shadow-ritual-ep-rwn23",
       "title": "Shadow Ritual EP",
       "artist": "Nicko Shuo, DZK, Isgang, Maloog, VC.UNDER, Jose Monsalve",
-      "description": "",
-      "releaseDate": "07 Mar 2025 00:00:00 GMT",
+      "description": "Shadow Ritual is a sonic journey that merges the power of heavy drums with an atmosphere steeped in mental soundscapes. This release delves into dark and immersive realms, with every layer and texture coming together to draw the listener into a profound and captivating ritual. Perfect for those seeking to experience the most visceral and mental essence of techno.",
+      "releaseDate": "2025-03-07",
       "coverArt": "https://f4.bcbits.com/img/a0514275974_0.jpg",
       "tracks": [
         {
@@ -290,17 +292,145 @@ window.__STATIC_DATA = {
         }
       ],
       "catalog": "RWN23",
-      "albumId": 4112705198,
+      "albumId": "4112705198",
       "tags": [],
-      "type": "album"
+      "type": "album",
+      "beatport": "https://www.beatport.com/es/release/shadow-ritual/4929417",
+      "instagram": ""
+    },
+    {
+      "id": "2974911002",
+      "url": "https://rowanunderground.bandcamp.com/album/human-exposure-to-vacuum-ep-rwn21",
+      "title": "Human Exposure To Vacuum EP",
+      "artist": "Innmenal, Lazly Bateman",
+      "description": "This innovative album combines ethereal atmospheres and hypnotic rhythms to create an immersive experience that will transport you to the edges of outer space. Each track has been carefully designed to evoke sensations of isolation, vastness, and the haunting beauty of the void. Immerse yourself in a soundscape where silence and sound coexist, and explore the depths of human existence in the universe. ",
+      "releaseDate": "2024-09-06",
+      "coverArt": "https://f4.bcbits.com/img/a0586757436_0.jpg",
+      "tracks": [
+        {
+          "num": 1,
+          "title": "Her Healthy Paranoia (Original Mix)",
+          "duration": "5:38"
+        },
+        {
+          "num": 2,
+          "title": "Winded (Original Mix)",
+          "duration": "5:31"
+        },
+        {
+          "num": 3,
+          "title": "Wormhole Station (Original Mix)",
+          "duration": "5:40"
+        },
+        {
+          "num": 4,
+          "title": "Her Healthy Paranoia (Lazly Bateman Remix)",
+          "duration": "5:48"
+        }
+      ],
+      "catalog": "RWN21",
+      "albumId": "2974911002",
+      "tags": [],
+      "type": "album",
+      "beatport": "https://www.beatport.com/es/release/human-exposure-to-vacuum/4674642",
+      "instagram": "https://instagram.com"
+    },
+    {
+      "id": "1742165565",
+      "url": "https://rowanunderground.bandcamp.com/album/duality-ep-rwn20",
+      "title": "Duality EP",
+      "artist": "Asmodeo",
+      "description": "Discover 'Duality,' the new EP by the talented producer Asmodeo. Consisting of three original tracks, it will take you on a unique mental journey. Each track is infused with Asmodeo's distinctive style, blending hypnotism and technicality into an incomparable sonic experience. Immerse yourself in its enveloping atmospheres and let the powerful basslines guide you through a fascinating sonic landscape. 'Duality EP' is an introspective journey you won't want to miss.",
+      "releaseDate": "2024-08-02",
+      "coverArt": "https://f4.bcbits.com/img/a1531388915_0.jpg",
+      "tracks": [
+        {
+          "num": 1,
+          "title": "Duality Error (Original Mix)",
+          "duration": "7:33"
+        },
+        {
+          "num": 2,
+          "title": "Desperation (Original Mix)",
+          "duration": "5:08"
+        },
+        {
+          "num": 3,
+          "title": "No More Agresivity (Original Mix)",
+          "duration": "5:46"
+        }
+      ],
+      "catalog": "RWN20",
+      "albumId": "1742165565",
+      "tags": [],
+      "type": "album",
+      "beatport": "https://www.beatport.com/es/release/duality/4629554",
+      "instagram": ""
+    },
+    {
+      "id": "2219408987",
+      "url": "https://rowanunderground.bandcamp.com/album/dilatacion-temporal-iv-anniversary-rwn19",
+      "title": "Dilatacion Temporal IV Anniversary",
+      "artist": "Various Artists",
+      "description": "We are pleased to announce the highly anticipated release from our record label, a compilation that celebrates four years of passion, creativity, and evolution in the music scene. This special album brings together an exceptional group of talents who have helped define and expand the unique personality of our label. The album features collaborations from esteemed artists such as Esteban Miranda, Go-z, Juan Trujillo, Leandro Taibbi, Leopold Bär, Mwamwa, Nicko Shuo, and 9 8 r p m. Each artist brings their own style and vision, creating an eclectic and vibrant mix that encapsulates the essence of what we represent: innovation, diversity, and musical excellence. From immersive rhythms to hypnotic melodies, this release is a sonic journey that reflects the identity and spirit of our label. It is a celebration of the creativity and talent we have cultivated over the years and a preview of what is to come. Join us in this milestone and let yourself be carried away by the vibes of Various Artists. Thank you for being part of our community and for supporting the music we love.",
+      "releaseDate": "2024-07-05",
+      "coverArt": "/uploads/cover-1777245796745.webp",
+      "tracks": [
+        {
+          "num": 1,
+          "title": "Esteban Miranda - Genesis (Original Mix)",
+          "duration": "5:57"
+        },
+        {
+          "num": 2,
+          "title": "Leandro Taibbi - Rigel B2 (Original Mix)",
+          "duration": "6:05"
+        },
+        {
+          "num": 3,
+          "title": "Juan Trujillo - They Are Already Here (Original Mix)",
+          "duration": "5:32"
+        },
+        {
+          "num": 4,
+          "title": "Mwamwa - Iaavvaai (Original Mix)",
+          "duration": "5:31"
+        },
+        {
+          "num": 5,
+          "title": "Leopold Bär - Voltage Spikes (Original Mix)",
+          "duration": "5:41"
+        },
+        {
+          "num": 6,
+          "title": "Nicko Shuo - Opinion Space (Original Mix)",
+          "duration": "5:33"
+        },
+        {
+          "num": 7,
+          "title": "9 8 r p m - Persecution Feeling (Original Mix)",
+          "duration": "5:18"
+        },
+        {
+          "num": 8,
+          "title": "Go-z - Remains (Original Mix)",
+          "duration": "5:23"
+        }
+      ],
+      "catalog": "RWN19",
+      "albumId": "2219408987",
+      "tags": [],
+      "type": "album",
+      "beatport": "https://www.beatport.com/es/release/dilatacion-temporal-iv-anniversary/4593310",
+      "instagram": "https://instagram.com"
     },
     {
       "id": "1189819453",
       "url": "https://rowanunderground.bandcamp.com/album/nadaism-ep-rwn22",
       "title": "Nadaism EP",
       "artist": "EL MAMU, Leandro Taibbi, Artyem",
-      "description": "Artists: EL MAMU, Leandro Taibbi, Artyem\r\nTitle: Nadaism\r\nLabel: Rowan Underground\r\nCatalogue: RWN22\r\nFormat: Digital\r\nGenre: Electronic\r\nStyle: Techno\r\nMastering & Artwork: Rowan Labs",
-      "releaseDate": "04 Oct 2024 00:00:00 GMT",
+      "description": "Nadaism delves into the essence of techno mental, blending the rebellious and philosophical spirit of nadaism with the hypnotic energy of techno. Each track intricately weaves soundscapes that challenge conventions, inviting introspection and liberation. Inspired by the nadaism cultural and literary movement, this album is an ode to individual freedom, breaking norms, and finding meaning in a seemingly chaotic world. Immerse yourself in this sonic universe and be carried away by its deep rhythms and resonant message.",
+      "releaseDate": "2024-04-10",
       "coverArt": "https://f4.bcbits.com/img/a3163691863_0.jpg",
       "tracks": [
         {
@@ -340,39 +470,11 @@ window.__STATIC_DATA = {
         }
       ],
       "catalog": "RWN22",
-      "albumId": 1189819453,
+      "albumId": "1189819453",
       "tags": [],
-      "type": "album"
-    },
-    {
-      "id": "1742165565",
-      "url": "https://rowanunderground.bandcamp.com/album/duality-ep-rwn20",
-      "title": "Duality EP",
-      "artist": "Asmodeo",
-      "description": "",
-      "releaseDate": "02 Aug 2024 00:00:00 GMT",
-      "coverArt": "https://f4.bcbits.com/img/a1531388915_0.jpg",
-      "tracks": [
-        {
-          "num": 1,
-          "title": "Duality Error (Original Mix)",
-          "duration": "7:33"
-        },
-        {
-          "num": 2,
-          "title": "Desperation (Original Mix)",
-          "duration": "5:08"
-        },
-        {
-          "num": 3,
-          "title": "No More Agresivity (Original Mix)",
-          "duration": "5:46"
-        }
-      ],
-      "catalog": "RWN20",
-      "albumId": 1742165565,
-      "tags": [],
-      "type": "album"
+      "type": "album",
+      "beatport": "https://www.beatport.com/es/release/nadaism/4709685",
+      "instagram": ""
     },
     {
       "id": "1456156895",
@@ -773,100 +875,6 @@ window.__STATIC_DATA = {
       "albumId": 89842060,
       "tags": [],
       "type": "album"
-    },
-    {
-      "id": "2974911002",
-      "url": "https://rowanunderground.bandcamp.com/album/human-exposure-to-vacuum-ep-rwn21",
-      "title": "Human Exposure To Vacuum EP",
-      "artist": "Innmenal, Lazly Bateman",
-      "description": "Artists: Innmenal, Lazly Bateman\nTitle: Human Exposure To Vacuum\nLabel: Rowan Underground\nCatalogue: RWN21\nFormat: Digital\nGenre: Electronic\nStyle: Techno\nMastering & Artwork: Rowan Labs",
-      "releaseDate": null,
-      "coverArt": "https://f4.bcbits.com/img/a0586757436_0.jpg",
-      "tracks": [
-        {
-          "num": 1,
-          "title": "Her Healthy Paranoia (Original Mix)",
-          "duration": "5:38"
-        },
-        {
-          "num": 2,
-          "title": "Winded (Original Mix)",
-          "duration": "5:31"
-        },
-        {
-          "num": 3,
-          "title": "Wormhole Station (Original Mix)",
-          "duration": "5:40"
-        },
-        {
-          "num": 4,
-          "title": "Her Healthy Paranoia (Lazly Bateman Remix)",
-          "duration": "5:48"
-        }
-      ],
-      "catalog": "RWN21",
-      "albumId": "2974911002",
-      "tags": [],
-      "type": "album",
-      "beatport": "https://beatport.com",
-      "instagram": "https://instagram.com"
-    },
-    {
-      "id": "2219408987",
-      "url": "https://rowanunderground.bandcamp.com/album/dilatacion-temporal-iv-anniversary-rwn19",
-      "title": "Dilatacion Temporal IV Anniversary",
-      "artist": "Various Artists",
-      "description": "",
-      "releaseDate": null,
-      "coverArt": "/uploads/cover-1777245796745.webp",
-      "tracks": [
-        {
-          "num": 1,
-          "title": "Esteban Miranda - Genesis (Original Mix)",
-          "duration": "5:57"
-        },
-        {
-          "num": 2,
-          "title": "Leandro Taibbi - Rigel B2 (Original Mix)",
-          "duration": "6:05"
-        },
-        {
-          "num": 3,
-          "title": "Juan Trujillo - They Are Already Here (Original Mix)",
-          "duration": "5:32"
-        },
-        {
-          "num": 4,
-          "title": "Mwamwa - Iaavvaai (Original Mix)",
-          "duration": "5:31"
-        },
-        {
-          "num": 5,
-          "title": "Leopold Bär - Voltage Spikes (Original Mix)",
-          "duration": "5:41"
-        },
-        {
-          "num": 6,
-          "title": "Nicko Shuo - Opinion Space (Original Mix)",
-          "duration": "5:33"
-        },
-        {
-          "num": 7,
-          "title": "9 8 r p m - Persecution Feeling (Original Mix)",
-          "duration": "5:18"
-        },
-        {
-          "num": 8,
-          "title": "Go-z - Remains (Original Mix)",
-          "duration": "5:23"
-        }
-      ],
-      "catalog": "RWN19",
-      "albumId": "2219408987",
-      "tags": [],
-      "type": "album",
-      "beatport": "https://beatport.com",
-      "instagram": "https://instagram.com"
     },
     {
       "id": "2257085826",
