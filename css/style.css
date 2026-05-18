@@ -120,6 +120,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .nav-link:hover { color: var(--text-1); }
 .nav-link--bandcamp { color: var(--accent); }
 .nav-link--bandcamp:hover { color: #78b0ff; }
+.nav-link--beatport { color: #02d4be; }
+.nav-link--beatport:hover { color: #5ef0e5; }
 
 .nav-toggle { display: none; flex-direction: column; gap: 5px; }
 .nav-toggle span {
