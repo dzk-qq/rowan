@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rowan Underground</title>
+  <meta name="description" content="Rowan Underground — Sello discográfico de techno hipnótico y música electrónica de fondo profundo." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- Noise grain overlay -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="site-header" id="site-header">
+    <a class="logo" href="/" id="logo-link">
+      <img src="/images/logo.png" alt="Rowan Underground" class="logo-img" />
+    </a>
+    <nav class="nav" id="main-nav">
+      <a href="/releases" class="nav-link" data-link>Releases</a>
+      <a href="/merch" class="nav-link hidden" id="nav-merch" data-link>Merch</a>
+      <a href="/events" class="nav-link hidden" id="nav-events" data-link>Events</a>
+      <a href="/demos" class="nav-link hidden" id="nav-demos" data-link>Demos</a>
+      <a href="/about" class="nav-link" data-link>About</a>
+      <a href="https://rowanunderground.bandcamp.com" target="_blank" rel="noopener" class="nav-link nav-link--bandcamp">Bandcamp ↗</a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <!-- Logo: independently centered -->
+    <div class="hero-content">
+      <img src="/images/logo.png" alt="Rowan Underground" class="hero-logo" />
+    </div>
+    <!-- Button + scroll: fixed lower position -->
+    <div class="hero-cta-wrap">
+      <a href="#releases" class="hero-cta">Releases</a>
+      <div class="hero-scroll" aria-hidden="true">
+        <span>SCROLL</span>
+        <div class="hero-scroll-line"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Releases feed -->
+  <section class="releases-section" id="releases">
+    <div class="section-header">
+      <h2 class="section-title">RELEASES</h2>
+    </div>
+    <div class="releases-feed" id="releases-feed">
+      <!-- Populated by JS -->
+    </div>
+    <div class="feed-empty hidden" id="feed-empty">
+      <p>No se encontraron lanzamientos.<br/>El sync con Bandcamp puede tardar unos minutos.</p>
+      <button class="btn-primary" id="btn-retry">Reintentar</button>
+    </div>
+  </section>
+
+  <!-- Merch -->
+  <section class="merch-section hidden" id="merch">
+    <div class="section-header">
+      <h2 class="section-title">MERCH</h2>
+    </div>
+    <div class="merch-grid" id="merch-grid">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <!-- Events -->
+  <section class="events-section hidden" id="events">
+    <div class="section-header">
+      <h2 class="section-title">EVENTS</h2>
+    </div>
+    <div class="events-list" id="events-list">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <!-- Demos -->
+  <section class="demos-section hidden" id="demos">
+    <div class="demos-inner">
+      <h2 class="section-title">DEMO DROP</h2>
+      <div class="demos-content">
+        <p>We are always looking for new hypnotic and mental techno. Send us your private SoundCloud links.</p>
+        <p class="demos-rules">Please ensure the tracks are finished and unreleased.</p>
+        <a href="#" class="btn-primary" id="btn-demo-mail">SEND DEMO</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about-section" id="about">
+    <div class="about-inner">
+      <h2 class="section-title">ABOUT</h2>
+      <p class="about-text">
+        Techno label based in Argentina and Germany.<br/>
+        Exploring the mental, experimental and raw edges of techno since 2020.<br/>
+        Curated soundscapes, conceptual releases and deep sonic narratives.
+      </p>
+      <div class="about-links">
+        <a href="https://rowanunderground.bandcamp.com" target="_blank" rel="noopener" class="about-link">Bandcamp</a>
+        <a href="https://soundcloud.com/rowanunderground" target="_blank" rel="noopener" class="about-link">Soundcloud</a>
+        <a href="https://www.instagram.com/rowanunderground" target="_blank" rel="noopener" class="about-link">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <span>© <span id="footer-year"></span> Rowan Underground</span>
+    <span class="footer-sep">·</span>
+  </footer>
+
+  <!-- Release Detail Modal -->
+  <div class="modal-overlay hidden" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal" id="modal">
+      <button class="modal-close" id="modal-close" aria-label="Cerrar">✕</button>
+      <div class="modal-inner">
+        <div class="modal-left" id="modal-left">
+          <img class="modal-cover" id="modal-cover" src="" alt="" />
+          <div class="modal-store-links">
+            <a class="btn-bandcamp" id="modal-bandcamp-link" href="#" target="_blank" rel="noopener">
+              Bandcamp ↗
+            </a>
+            <a class="btn-store btn-beatport hidden" id="modal-beatport-link" href="#" target="_blank" rel="noopener">
+              Beatport ↗
+            </a>
+            <a class="btn-store btn-instagram hidden" id="modal-instagram-link" href="#" target="_blank" rel="noopener">
+              Instagram ↗
+            </a>
+          </div>
+        </div>
+        <div class="modal-middle" id="modal-right">
+          <p class="modal-catalog" id="modal-catalog"></p>
+          <h2 class="modal-title" id="modal-title"></h2>
+          <p class="modal-artist" id="modal-artist"></p>
+          <p class="modal-date" id="modal-date"></p>
+          <div class="modal-tags" id="modal-tags"></div>
+          <div class="modal-description" id="modal-description"></div>
+          <div class="modal-tracks" id="modal-tracks"></div>
+        </div>
+        <div class="modal-player-col">
+          <div class="modal-player" id="modal-player"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/static-data.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

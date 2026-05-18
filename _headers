@@ -1,0 +1,18 @@
+# Rowan Underground — Cloudflare Pages headers
+
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+
+/js/static-data.js
+  Cache-Control: public, max-age=300
+
+/css/*
+  Cache-Control: public, max-age=86400
+
+/images/*
+  Cache-Control: public, max-age=2592000
+
+/uploads/*
+  Cache-Control: public, max-age=2592000
