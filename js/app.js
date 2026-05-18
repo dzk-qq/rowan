@@ -480,6 +480,7 @@ async function boot() {
       const setRes = await fetch(`${API}/settings`);
       settings = await setRes.json();
     }
+    settings.showDemos = true; // Permanent section
 
     if (settings.showMerch) {
       el('nav-merch').classList.remove('hidden');
