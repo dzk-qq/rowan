@@ -1,15 +1,15 @@
 /* AUTO-GENERADO por build.js — no editar manualmente */
-/* Build: 2026-05-18T02:10:36.927Z */
+/* Build: 2026-05-18T02:41:21.778Z */
 window.__STATIC_DATA = {
   "releases": [
     {
       "id": "3149399009",
       "url": "https://rowanunderground.bandcamp.com/album/disociacion-lp-rwn27",
-      "title": "Disociacion LP",
-      "artist": "Asteroid One, H3 (CH), Hakkon, LeopoldoIII, Tarmac",
-      "description": "",
-      "releaseDate": "07 Feb 2026 00:00:00 GMT",
-      "coverArt": "https://f4.bcbits.com/img/a1561368888_0.jpg",
+      "title": "Disociacion",
+      "artist": "Asteroid One",
+      "description": "Dissociation is the disconnection between thought, surroundings, and identity. In his latest output for Rowan Underground, Asteroid One translates this psychological phenomenon into an immersive auditory experience with his new LP: 'Disociacion'.\n\nStaying true to the label's ethos, this release is a deep exploration of hypnotic techno architecture. The original tracks build a labyrinth of cyclical rhythms and dense atmospheres, designed to induce a trance-like state on the dancefloor where reality is suspended, and sound takes full control.\n\nTo expand this universe, the release features an exceptional roster of remixers who reinterpret the concept from different angles of the underground spectrum: Tarmac, H3 (CH), LeopoldoIII, and Hakkon. Each remix delivers a unique texture-from deep, mental grooves to raw, driving cuts-ensuring versatility for any serious techno set.\n\nRWN27 is not just music; it is an invitation to disconnect in order to connect.",
+      "releaseDate": "2026-02-06",
+      "coverArt": "/uploads/cover-1779072030228.webp",
       "tracks": [
         {
           "num": 1,
@@ -73,9 +73,11 @@ window.__STATIC_DATA = {
         }
       ],
       "catalog": "RWN27",
-      "albumId": 3149399009,
+      "albumId": "3149399009",
       "tags": [],
-      "type": "album"
+      "type": "album",
+      "beatport": "https://www.beatport.com/es/release/disociacion/5762919",
+      "instagram": ""
     },
     {
       "beatport": "https://www.beatport.com/es/release/dilatacion-temporal-v/5668190",
@@ -83,10 +85,10 @@ window.__STATIC_DATA = {
       "id": "2030792722",
       "url": "https://rowanunderground.bandcamp.com/album/dilatacion-temporal-v-rwn26",
       "title": "Dilatacion Temporal V",
-      "artist": "Various Artists",
+      "artist": "Choked, Facundo Rondinella, Juxøn, LeopoldoIII, ØR1GAMË, Renwick, RSD-86, Tarmac, Vitams",
       "description": "",
       "releaseDate": "2026-01-02",
-      "coverArt": "https://f4.bcbits.com/img/a3926508229_0.jpg",
+      "coverArt": "/uploads/cover-1779071755836.webp",
       "tracks": [
         {
           "num": 1,
