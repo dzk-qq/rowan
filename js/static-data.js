@@ -1,5 +1,5 @@
 /* AUTO-GENERADO por build.js — no editar manualmente */
-/* Build: 2026-05-18T01:42:58.325Z */
+/* Build: 2026-05-18T01:45:24.979Z */
 window.__STATIC_DATA = {
   "releases": [
     {
@@ -83,7 +83,7 @@ window.__STATIC_DATA = {
       "title": "Dilatacion Temporal V",
       "artist": "Various Artists",
       "description": "",
-      "releaseDate": "02 Jan 2026 00:00:00 GMT",
+      "releaseDate": "2026-01-02",
       "coverArt": "https://f4.bcbits.com/img/a3926508229_0.jpg",
       "tracks": [
         {
@@ -133,7 +133,7 @@ window.__STATIC_DATA = {
         }
       ],
       "catalog": "RWN26",
-      "albumId": 2030792722,
+      "albumId": "2030792722",
       "tags": [],
       "type": "album",
       "beatport": "https://youtube.com",
