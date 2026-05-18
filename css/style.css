@@ -36,7 +36,18 @@ body {
   font-size: 15px;
   line-height: 1.6;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   overflow-x: hidden;
+}
+
+/* Make navigated sections fill screen and push footer to bottom */
+.releases-section,
+.merch-section,
+.events-section,
+.demos-section,
+.about-section {
+  flex-grow: 1;
 }
 
 img { display: block; max-width: 100%; }
@@ -60,7 +71,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 /* ── Header ──────────────────────────────────────────────────────────────────── */
 .site-header {
   position: fixed;
-  top: 0; left: 0; right: 0;
+  top: -100px; left: 0; right: 0;
   z-index: 100;
   display: flex;
   align-items: center;
@@ -71,12 +82,11 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
   /* Hidden at top of page, revealed on scroll */
-  transform: translateY(-100%);
   opacity: 0;
-  transition: transform .35s cubic-bezier(.4,0,.2,1), opacity .35s ease, background var(--transition);
+  transition: top .35s cubic-bezier(.4,0,.2,1), opacity .35s ease, background var(--transition);
 }
 .site-header.visible {
-  transform: translateY(0);
+  top: 0;
   opacity: 1;
   border-bottom-color: rgba(255,255,255,.05);
   background: rgba(3,4,15,.94);
@@ -88,7 +98,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   line-height: 1;
 }
 .logo-img {
-  height: 34px;
+  height: 26px;
   width: auto;
   display: block;
   object-fit: contain;
@@ -327,8 +337,10 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 /* Release card */
 .release-card {
   display: grid;
-  grid-template-columns: 180px 1fr;
-  gap: 0;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 1.75rem;
+  padding: 1.25rem 2.5rem 1.25rem 2rem;
   border-bottom: 1px solid var(--border);
   margin-bottom: 8px;
   cursor: pointer;
@@ -339,13 +351,12 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .release-card:hover { background: var(--bg-card-h); border-color: var(--border-h); }
 .release-card:hover .release-cover { filter: brightness(1.05); }
 
-/* Gradient hover overlay — only over the info section, not the cover */
+/* Gradient hover overlay — full card */
 .release-card::after {
   content: '';
   position: absolute;
-  top: 0; right: 0; bottom: 0;
-  left: 180px;             /* starts after the thumbnail */
-  background: rgba(0,0,0,.18);
+  top: 0; right: 0; bottom: 0; left: 0;
+  background: rgba(0,0,0,.15);
   opacity: 0;
   pointer-events: none;
   transition: opacity .3s;
@@ -357,7 +368,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   content: '';
   position: absolute;
   left: 0; top: 0; bottom: 0;
-  width: 2px;
+  width: 3px;
   background: linear-gradient(to bottom, var(--accent), rgba(32,96,204,.15));
   transform: scaleY(0);
   transform-origin: top;
@@ -366,10 +377,12 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .release-card:hover::before { transform: scaleY(1); }
 
 .release-thumb {
-  width: 180px;
-  height: 180px;
+  width: 130px;
+  height: 130px;
   overflow: hidden;
   flex-shrink: 0;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
 .release-cover {
@@ -390,7 +403,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 .release-info {
-  padding: 1.75rem 3rem 1.75rem 2rem;
+  padding: 0 1.5rem 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -401,7 +414,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .release-info::after {
   content: '→';
   position: absolute;
-  right: 1.75rem;
+  right: 0;
   top: 50%;
   transform: translateY(-50%) translateX(-6px);
   opacity: 0;
@@ -779,18 +792,18 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 /* ── Responsive ──────────────────────────────────────────────────────────────── */
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .site-header { padding: 1rem 1.25rem; }
-  .nav { display: none; flex-direction: column; position: fixed; inset: 0; top: 60px; background: rgba(3,4,15,.98); padding: 2rem; gap: 1.5rem; align-items: flex-start; z-index: 99; }
+  .nav { display: none; flex-direction: column; position: fixed; top: 60px; left: 0; right: 0; height: auto; background: #03040f; padding: 2rem; gap: 1.5rem; align-items: flex-start; z-index: 99; border-bottom: 1px solid var(--border); box-shadow: 0 20px 40px rgba(0,0,0,0.8); }
   .nav.open { display: flex; }
   .nav-toggle { display: flex; }
 
   .section-header { padding: 3rem 1.25rem 1.5rem; }
   .releases-feed { padding: 0 1.25rem; }
 
-  .release-card { grid-template-columns: 100px 1fr; }
-  .release-thumb { width: 100px; height: 100px; }
-  .release-info { padding: 1rem; }
+  .release-card { padding: 1rem; gap: 1.25rem; }
+  .release-thumb { width: 90px; height: 90px; }
+  .release-info { padding: 0 1.25rem 0 0; }
   .release-artist { font-size: .95rem; }
 
   /* Modal mobile — stacked layout */
@@ -815,8 +828,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 @media (max-width: 480px) {
   .hero-title { font-size: clamp(3rem, 18vw, 5rem); }
-  .release-card { grid-template-columns: 80px 1fr; }
-  .release-thumb { width: 80px; height: 80px; }
+  .release-card { padding: 0.8rem; gap: 1rem; }
+  .release-thumb { width: 75px; height: 75px; }
 }
 
 /* ── Merch Section ──────────────────────────────────────────────────────────── */
@@ -960,7 +973,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .demos-rules { font-family: var(--font-mono); font-size: .75rem; color: var(--text-3) !important; text-transform: uppercase; margin-bottom: 2.5rem !important; }
 
 /* Mobile adjustments */
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .event-card { grid-template-columns: 80px 1fr; }
   .event-actions { grid-column: 1 / -1; border-top: 1px solid var(--border); text-align: center; padding: 1rem; }
   .merch-grid { grid-template-columns: 1fr; }
