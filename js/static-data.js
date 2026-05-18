@@ -1,5 +1,5 @@
 /* AUTO-GENERADO por build.js — no editar manualmente */
-/* Build: 2026-05-18T02:42:03.100Z */
+/* Build: 2026-05-18T03:01:36.979Z */
 window.__STATIC_DATA = {
   "releases": [
     {
@@ -140,6 +140,53 @@ window.__STATIC_DATA = {
       "albumId": "2030792722",
       "tags": [],
       "type": "album"
+    },
+    {
+      "id": "1174342290",
+      "url": "https://rowanunderground.bandcamp.com/album/memories-of-past-machines-rwn25",
+      "title": "Memories Of Past Machines",
+      "artist": "Noisync",
+      "description": "Memories of Past Machines is a sonic journey through the digital traces of a forgotten future. This release blends textures, hypnotic pulses, and atmospheres, evoking the nostalgia of an extinguished mechanical era. Each track tells a fragmented memory-echoes of machines that once dreamed of being human. Mental and immersive techno for those seeking to connect with the intangible.",
+      "releaseDate": "2025-06-14",
+      "coverArt": "/uploads/cover-1779073112751.webp",
+      "tracks": [
+        {
+          "num": 1,
+          "title": "#008000 (Original Mix)",
+          "duration": "5:58"
+        },
+        {
+          "num": 2,
+          "title": "No Clear Parameter (Original Mix)",
+          "duration": "6:21"
+        },
+        {
+          "num": 3,
+          "title": "0x7E2 (Original Mix)",
+          "duration": "5:35"
+        },
+        {
+          "num": 4,
+          "title": "Over the Logic (Original Mix)",
+          "duration": "6:05"
+        },
+        {
+          "num": 5,
+          "title": "No Clear Parameter (Hypogea Remix)",
+          "duration": "5:36"
+        },
+        {
+          "num": 6,
+          "title": "#008000 (DZK Remix)",
+          "duration": "5:27"
+        }
+      ],
+      "catalog": "RWN25",
+      "albumId": "1174342290",
+      "tags": [],
+      "type": "album",
+      "beatport": "https://www.beatport.com/release/memories-of-past-machines/5076351",
+      "instagram": ""
     },
     {
       "id": "331232407",
@@ -538,6 +585,323 @@ window.__STATIC_DATA = {
       "instagram": ""
     },
     {
+      "id": "694399905",
+      "url": "https://rowanunderground.bandcamp.com/album/shinji-ep-rwn16",
+      "title": "Shinji",
+      "artist": "Lazly Bateman",
+      "description": "Experience the unparalleled energy of four original tracks by Lazly Bateman and a unique remix by Stier, resulting in a meticulously crafted sonic masterpiece designed to elevate your dancefloor experience. Each track is a unique fusion of carefully selected sounds that will immerse you in a mental and emotional journey, creating an unforgettable atmosphere in the clubs. From pulsating rhythms to captivating arrangements, this album is an invitation to liberation and euphoria, destined to become the essential soundtrack for techno enthusiasts and passionate night owls. Discover the perfect blend of captivating beats and hypnotic melodies that will make you lose yourself in the magic of the dancefloor.",
+      "releaseDate": "2024-03-09",
+      "coverArt": "/uploads/cover-1779073161703.webp",
+      "tracks": [
+        {
+          "num": 1,
+          "title": "Shinji One (Original Mix)",
+          "duration": "6:38"
+        },
+        {
+          "num": 2,
+          "title": "Shinji Two (Original Mix)",
+          "duration": "6:35"
+        },
+        {
+          "num": 3,
+          "title": "Shinji Three (Original Mix)",
+          "duration": "6:53"
+        },
+        {
+          "num": 4,
+          "title": "Shinji Four (Original Mix)",
+          "duration": "7:00"
+        },
+        {
+          "num": 5,
+          "title": "Shinji Four (Stier Remix)",
+          "duration": "5:15"
+        }
+      ],
+      "catalog": "RWN16",
+      "albumId": "694399905",
+      "tags": [],
+      "type": "album",
+      "beatport": "https://www.beatport.com/es/release/shinji/4432157",
+      "instagram": ""
+    },
+    {
+      "id": "1544748818",
+      "url": "https://rowanunderground.bandcamp.com/album/pantano-ep-rwn15",
+      "title": "Pantano",
+      "artist": "Tobhias Guerrero",
+      "description": "Organic percussion rhythms, juicy grooves, and innate talent. This is what Tobhias Guerrero brings us in his EP 'Pantano,' composed of two original tracks perfect for the dance floor, and remixes by two talented artists. Mikrotakt contributes a high-energy remix with looped rhythms. Maloog brings us a remix with trippy soundscapes accompanied by a solid groove.",
+      "releaseDate": "2024-01-19",
+      "coverArt": "/uploads/cover-1779073195687.webp",
+      "tracks": [
+        {
+          "num": 1,
+          "title": "Flujo Continuo (Original Mix)",
+          "duration": "5:04"
+        },
+        {
+          "num": 2,
+          "title": "Pantano (Original Mix)",
+          "duration": "5:00"
+        },
+        {
+          "num": 3,
+          "title": "Flujo Continuo (Mikrotakt Remix)",
+          "duration": "5:26"
+        },
+        {
+          "num": 4,
+          "title": "Pantano (Maloog Remix)",
+          "duration": "5:54"
+        }
+      ],
+      "catalog": "RWN15",
+      "albumId": "1544748818",
+      "tags": [],
+      "type": "album",
+      "beatport": "https://www.beatport.com/es/release/pantano/4375686",
+      "instagram": ""
+    },
+    {
+      "id": "3483546001",
+      "url": "https://rowanunderground.bandcamp.com/album/underground-river-ep-rwn14",
+      "title": "Underground River",
+      "artist": "Das",
+      "description": "DAS's unique artistic prowess is evident in every track, skillfully merging techno elements with a hypnotic allure that engages both the mind and body.\nThrough the 'Underground River EP', DAS not only demonstrates a mastery of crafting immersive soundscapes but also collaborates with notable artists like Martin Stagnaro and Russ (ARG), heightening the auditory. This release extends an invitation to plunge into the depths of the underground, where a hypnotic trance awaits, merging the realms of mind and body in an unforgettable fusion.",
+      "releaseDate": "2023-12-26",
+      "coverArt": "/uploads/cover-1779073215937.webp",
+      "tracks": [
+        {
+          "num": 1,
+          "title": "Cycle Moments (Original Mix)",
+          "duration": "5:41"
+        },
+        {
+          "num": 2,
+          "title": "Underground Is The Only Way (Original Mix)",
+          "duration": "5:36"
+        },
+        {
+          "num": 3,
+          "title": "Oblivion River (Original Mix)",
+          "duration": "6:07"
+        },
+        {
+          "num": 4,
+          "title": "Cycle Moments (Martin Stagnaro Remix)",
+          "duration": "5:37"
+        },
+        {
+          "num": 5,
+          "title": "Underground Is The Only Way (Juan Trujillo Remix)",
+          "duration": "5:59"
+        },
+        {
+          "num": 6,
+          "title": "Oblivion River (Russ (ARG) Remix)",
+          "duration": "5:10"
+        }
+      ],
+      "catalog": "RWN14",
+      "albumId": "3483546001",
+      "tags": [],
+      "type": "album",
+      "beatport": "https://www.beatport.com/es/release/underground-river/4348040",
+      "instagram": ""
+    },
+    {
+      "id": "1951305600",
+      "url": "https://rowanunderground.bandcamp.com/album/eterno-retorno-remixes-compilation-rwn13",
+      "title": "Eterno Retorno Remixes Compilation",
+      "artist": "Martin Stagnaro",
+      "description": "'Eterno Retorno Remixes Compilation'\n\nIntroducing 'Eterno Retorno,' an electrifying original electronic track. Accompanying this release, 17 talented artists have crafted unique remixes. Among them:  Asmodeo, Centeno, DAS, DZK, Federico Cesio, Feiteru, Haber (ARG), Innmenal, Joan CTR, Joaquin Brunotto, Jose Monsalve, Le Muff, Maloog, Odem, Pert, 9 8 r p m and Process.\n\nThese remixes take 'Eterno Retorno' to uncharted territories, showcasing the diversity and creativity of electronic music. Get ready for an exciting musical journey that defies time and space. Stay tuned for the release date.",
+      "releaseDate": "2023-11-30",
+      "coverArt": "/uploads/cover-1779073235200.webp",
+      "tracks": [
+        {
+          "num": 1,
+          "title": "Eterno Retorno (Original Mix)",
+          "duration": "5:37"
+        },
+        {
+          "num": 2,
+          "title": "Eterno Retorno (DZK Remix)",
+          "duration": "6:04"
+        },
+        {
+          "num": 3,
+          "title": "Eterno Retorno (Process Remix)",
+          "duration": "5:09"
+        },
+        {
+          "num": 4,
+          "title": "Eterno Retorno (DAS Remix)",
+          "duration": "6:12"
+        },
+        {
+          "num": 5,
+          "title": "Eterno Retorno (Pert Remix)",
+          "duration": "4:55"
+        },
+        {
+          "num": 6,
+          "title": "Eterno Retorno (Jose Monsalve Remix)",
+          "duration": "5:00"
+        },
+        {
+          "num": 7,
+          "title": "Eterno Retorno (Joaquin Brunotto Remix)",
+          "duration": "5:24"
+        },
+        {
+          "num": 8,
+          "title": "Eterno Retorno (Asmodeo Remix)",
+          "duration": "5:38"
+        },
+        {
+          "num": 9,
+          "title": "Eterno Retorno (Fēiteru Remix)",
+          "duration": "5:13"
+        },
+        {
+          "num": 10,
+          "title": "Eterno Retorno (Haber (ARG) Remix)",
+          "duration": "6:12"
+        },
+        {
+          "num": 11,
+          "title": "Eterno Retorno (Innmenal Remix)",
+          "duration": "5:56"
+        },
+        {
+          "num": 12,
+          "title": "Eterno Retorno (Joan CTR Remix)",
+          "duration": "5:09"
+        },
+        {
+          "num": 13,
+          "title": "Eterno Retorno (Le Muff Remix)",
+          "duration": "7:00"
+        },
+        {
+          "num": 14,
+          "title": "Eterno Retorno (Federico Cesio Remix)",
+          "duration": "5:56"
+        },
+        {
+          "num": 15,
+          "title": "Eterno Retorno (Odem Remix)",
+          "duration": "6:08"
+        },
+        {
+          "num": 16,
+          "title": "Eterno Retorno (Centeno Remix)",
+          "duration": "5:30"
+        },
+        {
+          "num": 17,
+          "title": "Eterno Retorno (Maloog Remix)",
+          "duration": "6:10"
+        },
+        {
+          "num": 18,
+          "title": "Eterno Retorno (9 8 r p m Remix)",
+          "duration": "5:38"
+        }
+      ],
+      "catalog": "RWN13",
+      "albumId": "1951305600",
+      "tags": [],
+      "type": "album",
+      "beatport": "https://www.beatport.com/es/release/eterno-retorno-remixes-compilation/4319747",
+      "instagram": ""
+    },
+    {
+      "id": "538957172",
+      "url": "https://rowanunderground.bandcamp.com/album/my-life-on-b-side-ep-rwn12",
+      "title": "My Life On B Side",
+      "artist": "9 8 r p m",
+      "description": "Through the mysteries of the dance floor, where physical exploration meets fascinating interaction with drag queens. 'My Life On B Side'  invites you to immerse yourself in a vibrant and energizing universe, where dance becomes a tool to discover the transformative power of the body and mind.\n\nYou will be enveloped in a symphony of captivating rhythms and intoxicating melodies. Each song will take you on an introspective voyage, where music blends with physical expression, urging you to explore your own limits and unleash the magic that lies within.",
+      "releaseDate": "2023-09-01",
+      "coverArt": "/uploads/cover-1779073252027.webp",
+      "tracks": [
+        {
+          "num": 1,
+          "title": "Call Mood (Original Mix)",
+          "duration": "5:51"
+        },
+        {
+          "num": 2,
+          "title": "Electrical Enclosure (Original Mix)",
+          "duration": "5:22"
+        },
+        {
+          "num": 3,
+          "title": "My Life On B Side (Original Mix)",
+          "duration": "4:27"
+        },
+        {
+          "num": 4,
+          "title": "Vogue (Original Mix)",
+          "duration": "4:48"
+        }
+      ],
+      "catalog": "RWN12",
+      "albumId": "538957172",
+      "tags": [],
+      "type": "album",
+      "beatport": "https://www.beatport.com/es/release/my-life-on-b-side/4210963",
+      "instagram": ""
+    },
+    {
+      "id": "1456156895",
+      "url": "https://rowanunderground.bandcamp.com/album/dilatacion-temporal-ii-rwn11",
+      "title": "Dilatacion Temporal II",
+      "artist": "DZK, Malandrø, Au Revoir, Sinistermind, Asteroid One, Martin Stagnaro",
+      "description": "'Dilatacion Temporal II' is a diverse and eclectic release that will immerse you in an unparalleled musical journey. Each artist has left their unique mark on this album, and the combination of styles and approaches ensures a truly enriching listening experience. Get ready to dive into the sound of our record label and discover a world of emotions and sensations through music from Maszara, Au Revoir, Sinistermind, Martin Stagnaro, Asteroid One and Malandro.",
+      "releaseDate": "2023-07-11",
+      "coverArt": "/uploads/cover-1779073270472.webp",
+      "tracks": [
+        {
+          "num": 1,
+          "title": "DZK - El Hombre Hace Planes, Dios Rie (Original Mix)",
+          "duration": "5:00"
+        },
+        {
+          "num": 2,
+          "title": "Sinistermind - Blue Moon (Original Mix)",
+          "duration": "4:50"
+        },
+        {
+          "num": 3,
+          "title": "Martin Stagnaro - Red Monk (Original Mix)",
+          "duration": "6:04"
+        },
+        {
+          "num": 4,
+          "title": "Malandrø - Floodlight (Original Mix)",
+          "duration": "5:45"
+        },
+        {
+          "num": 5,
+          "title": "Au Revoir - Mischievous Ways (Original Mix)",
+          "duration": "5:31"
+        },
+        {
+          "num": 6,
+          "title": "Asteroid One - Fingers On Paper (Original Mix)",
+          "duration": "5:45"
+        }
+      ],
+      "catalog": "RWN11",
+      "albumId": "1456156895",
+      "tags": [],
+      "type": "album",
+      "beatport": "https://www.beatport.com/es/release/dilatacion-temporal-ii/4170239",
+      "instagram": ""
+    },
+    {
       "id": "2312132185",
       "url": "https://rowanunderground.bandcamp.com/album/sprnt-ep-rwn10",
       "title": "SPRNT EP",
@@ -891,370 +1255,6 @@ window.__STATIC_DATA = {
       "albumId": 89842060,
       "tags": [],
       "type": "album"
-    },
-    {
-      "id": "1174342290",
-      "url": "https://rowanunderground.bandcamp.com/album/memories-of-past-machines-rwn25",
-      "title": "Memories of Past Machines",
-      "artist": "Noisync, Hypogea, DZK",
-      "description": "Memories of Past Machines is a sonic journey through the digital traces of a forgotten future. This release blends textures, hypnotic pulses, and atmospheres, evoking the nostalgia of an extinguished mechanical era. Each track tells a fragmented memory-echoes of machines that once dreamed of being human. Mental and immersive techno for those seeking to connect with the intangible.",
-      "releaseDate": "",
-      "coverArt": "https://f4.bcbits.com/img/a0996218273_0.jpg",
-      "tracks": [
-        {
-          "num": 1,
-          "title": "#008000 (Original Mix)",
-          "duration": "5:58"
-        },
-        {
-          "num": 2,
-          "title": "No Clear Parameter (Original Mix)",
-          "duration": "6:21"
-        },
-        {
-          "num": 3,
-          "title": "0x7E2 (Original Mix)",
-          "duration": "5:35"
-        },
-        {
-          "num": 4,
-          "title": "Over the Logic (Original Mix)",
-          "duration": "6:05"
-        },
-        {
-          "num": 5,
-          "title": "No Clear Parameter (Hypogea Remix)",
-          "duration": "5:36"
-        },
-        {
-          "num": 6,
-          "title": "#008000 (DZK Remix)",
-          "duration": "5:27"
-        }
-      ],
-      "catalog": "RWN25",
-      "albumId": "1174342290",
-      "tags": [],
-      "type": "album",
-      "beatport": "https://www.beatport.com/es/release/memories-of-past-machines/5076351",
-      "instagram": ""
-    },
-    {
-      "id": "694399905",
-      "url": "https://rowanunderground.bandcamp.com/album/shinji-ep-rwn16",
-      "title": "Shinji EP",
-      "artist": "Lazly Bateman, Stier",
-      "description": "Experience the unparalleled energy of four original tracks by Lazly Bateman and a unique remix by Stier, resulting in a meticulously crafted sonic masterpiece designed to elevate your dancefloor experience. Each track is a unique fusion of carefully selected sounds that will immerse you in a mental and emotional journey, creating an unforgettable atmosphere in the clubs. From pulsating rhythms to captivating arrangements, this album is an invitation to liberation and euphoria, destined to become the essential soundtrack for techno enthusiasts and passionate night owls. Discover the perfect blend of captivating beats and hypnotic melodies that will make you lose yourself in the magic of the dancefloor.",
-      "releaseDate": "",
-      "coverArt": "https://f4.bcbits.com/img/a8675646_0.jpg",
-      "tracks": [
-        {
-          "num": 1,
-          "title": "Shinji One (Original Mix)",
-          "duration": "6:38"
-        },
-        {
-          "num": 2,
-          "title": "Shinji Two (Original Mix)",
-          "duration": "6:35"
-        },
-        {
-          "num": 3,
-          "title": "Shinji Three (Original Mix)",
-          "duration": "6:53"
-        },
-        {
-          "num": 4,
-          "title": "Shinji Four (Original Mix)",
-          "duration": "7:00"
-        },
-        {
-          "num": 5,
-          "title": "Shinji Four (Stier Remix)",
-          "duration": "5:15"
-        }
-      ],
-      "catalog": "RWN16",
-      "albumId": "694399905",
-      "tags": [],
-      "type": "album",
-      "beatport": "https://www.beatport.com/es/release/shinji/4432157",
-      "instagram": ""
-    },
-    {
-      "id": "1544748818",
-      "url": "https://rowanunderground.bandcamp.com/album/pantano-ep-rwn15",
-      "title": "Pantano EP",
-      "artist": "Tobhias Guerrero, Mikrotakt, Maloog",
-      "description": "Organic percussion rhythms, juicy grooves, and innate talent. This is what Tobhias Guerrero brings us in his EP 'Pantano,' composed of two original tracks perfect for the dance floor, and remixes by two talented artists. Mikrotakt contributes a high-energy remix with looped rhythms. Maloog brings us a remix with trippy soundscapes accompanied by a solid groove.",
-      "releaseDate": "",
-      "coverArt": "https://f4.bcbits.com/img/a617437181_0.jpg",
-      "tracks": [
-        {
-          "num": 1,
-          "title": "Flujo Continuo (Original Mix)",
-          "duration": "5:04"
-        },
-        {
-          "num": 2,
-          "title": "Pantano (Original Mix)",
-          "duration": "5:00"
-        },
-        {
-          "num": 3,
-          "title": "Flujo Continuo (Mikrotakt Remix)",
-          "duration": "5:26"
-        },
-        {
-          "num": 4,
-          "title": "Pantano (Maloog Remix)",
-          "duration": "5:54"
-        }
-      ],
-      "catalog": "RWN15",
-      "albumId": "1544748818",
-      "tags": [],
-      "type": "album",
-      "beatport": "https://www.beatport.com/es/release/pantano/4375686",
-      "instagram": ""
-    },
-    {
-      "id": "3483546001",
-      "url": "https://rowanunderground.bandcamp.com/album/underground-river-ep-rwn14",
-      "title": "Underground River EP",
-      "artist": "DAS, Juan Trujillo, Russ (ARG), Martin Stagnaro",
-      "description": "DAS's unique artistic prowess is evident in every track, skillfully merging techno elements with a hypnotic allure that engages both the mind and body. Through the 'Underground River EP', DAS not only demonstrates a mastery of crafting immersive soundscapes but also collaborates with notable artists like Martin Stagnaro and Russ (ARG), heightening the auditory. This release extends an invitation to plunge into the depths of the underground, where a hypnotic trance awaits, merging the realms of mind and body in an unforgettable fusion.",
-      "releaseDate": "",
-      "coverArt": "https://f4.bcbits.com/img/a495933452_0.jpg",
-      "tracks": [
-        {
-          "num": 1,
-          "title": "Cycle Moments (Original Mix)",
-          "duration": "5:41"
-        },
-        {
-          "num": 2,
-          "title": "Underground Is The Only Way (Original Mix)",
-          "duration": "5:36"
-        },
-        {
-          "num": 3,
-          "title": "Oblivion River (Original Mix)",
-          "duration": "6:07"
-        },
-        {
-          "num": 4,
-          "title": "Cycle Moments (Martin Stagnaro Remix)",
-          "duration": "5:37"
-        },
-        {
-          "num": 5,
-          "title": "Underground Is The Only Way (Juan Trujillo Remix)",
-          "duration": "5:59"
-        },
-        {
-          "num": 6,
-          "title": "Oblivion River (Russ (ARG) Remix)",
-          "duration": "5:10"
-        }
-      ],
-      "catalog": "RWN14",
-      "albumId": "3483546001",
-      "tags": [],
-      "type": "album",
-      "beatport": "https://www.beatport.com/es/release/underground-river/4348040",
-      "instagram": ""
-    },
-    {
-      "id": "1951305600",
-      "url": "https://rowanunderground.bandcamp.com/album/eterno-retorno-remixes-compilation-rwn13",
-      "title": "Eterno Retorno Remixes Compilation",
-      "artist": "Various Artists",
-      "description": "",
-      "releaseDate": null,
-      "coverArt": "https://f4.bcbits.com/img/a2118489834_0.jpg",
-      "tracks": [
-        {
-          "num": 1,
-          "title": "Eterno Retorno (Original Mix)",
-          "duration": "5:37"
-        },
-        {
-          "num": 2,
-          "title": "Eterno Retorno (DZK Remix)",
-          "duration": "6:04"
-        },
-        {
-          "num": 3,
-          "title": "Eterno Retorno (Process Remix)",
-          "duration": "5:09"
-        },
-        {
-          "num": 4,
-          "title": "Eterno Retorno (DAS Remix)",
-          "duration": "6:12"
-        },
-        {
-          "num": 5,
-          "title": "Eterno Retorno (Pert Remix)",
-          "duration": "4:55"
-        },
-        {
-          "num": 6,
-          "title": "Eterno Retorno (Jose Monsalve Remix)",
-          "duration": "5:00"
-        },
-        {
-          "num": 7,
-          "title": "Eterno Retorno (Joaquin Brunotto Remix)",
-          "duration": "5:24"
-        },
-        {
-          "num": 8,
-          "title": "Eterno Retorno (Asmodeo Remix)",
-          "duration": "5:38"
-        },
-        {
-          "num": 9,
-          "title": "Eterno Retorno (Fēiteru Remix)",
-          "duration": "5:13"
-        },
-        {
-          "num": 10,
-          "title": "Eterno Retorno (Haber (ARG) Remix)",
-          "duration": "6:12"
-        },
-        {
-          "num": 11,
-          "title": "Eterno Retorno (Innmenal Remix)",
-          "duration": "5:56"
-        },
-        {
-          "num": 12,
-          "title": "Eterno Retorno (Joan CTR Remix)",
-          "duration": "5:09"
-        },
-        {
-          "num": 13,
-          "title": "Eterno Retorno (Le Muff Remix)",
-          "duration": "7:00"
-        },
-        {
-          "num": 14,
-          "title": "Eterno Retorno (Federico Cesio Remix)",
-          "duration": "5:56"
-        },
-        {
-          "num": 15,
-          "title": "Eterno Retorno (Odem Remix)",
-          "duration": "6:08"
-        },
-        {
-          "num": 16,
-          "title": "Eterno Retorno (Centeno Remix)",
-          "duration": "5:30"
-        },
-        {
-          "num": 17,
-          "title": "Eterno Retorno (Maloog Remix)",
-          "duration": "6:10"
-        },
-        {
-          "num": 18,
-          "title": "Eterno Retorno (9 8 r p m Remix)",
-          "duration": "5:38"
-        }
-      ],
-      "catalog": "RWN13",
-      "albumId": "1951305600",
-      "tags": [],
-      "type": "album",
-      "beatport": "",
-      "instagram": ""
-    },
-    {
-      "id": "538957172",
-      "url": "https://rowanunderground.bandcamp.com/album/my-life-on-b-side-ep-rwn12",
-      "title": "My Life On B Side EP",
-      "artist": "9 8 r p m",
-      "description": "Artists: 9 8 r p m\nTitle: My Life On B Side\nLabel: Rowan Underground\nCatalogue: RWN12\nFormat: Digital\nGenre: Electronic\nStyle: Techno\nMastered by : www.instagram.com/rowan.mastering/\nArtwork by : www.instagram.com/darksider.arg/",
-      "releaseDate": null,
-      "coverArt": "https://f4.bcbits.com/img/a1059719348_0.jpg",
-      "tracks": [
-        {
-          "num": 1,
-          "title": "Call Mood (Original Mix)",
-          "duration": "5:51"
-        },
-        {
-          "num": 2,
-          "title": "Electrical Enclosure (Original Mix)",
-          "duration": "5:22"
-        },
-        {
-          "num": 3,
-          "title": "My Life On B Side (Original Mix)",
-          "duration": "4:27"
-        },
-        {
-          "num": 4,
-          "title": "Vogue (Original Mix)",
-          "duration": "4:48"
-        }
-      ],
-      "catalog": "RWN12",
-      "albumId": "538957172",
-      "tags": [],
-      "type": "album",
-      "beatport": "",
-      "instagram": ""
-    },
-    {
-      "id": "1456156895",
-      "url": "https://rowanunderground.bandcamp.com/album/dilatacion-temporal-ii-rwn11",
-      "title": "Dilatacion Temporal II",
-      "artist": "Various Artists",
-      "description": "Dilatacion Temporal II' is a diverse and eclectic release that will immerse you in an unparalleled musical journey. Each artist has left their unique mark on this album, and the combination of styles and approaches ensures a truly enriching listening experience. Get ready to dive into the sound of our record label and discover a world of emotions and sensations through music from Maszara, Au Revoir, Sinistermind, Martin Stagnaro, Asteroid One and Malandro.",
-      "releaseDate": "",
-      "coverArt": "https://f4.bcbits.com/img/a1438385662_0.jpg",
-      "tracks": [
-        {
-          "num": 1,
-          "title": "DZK - El Hombre Hace Planes, Dios Rie (Original Mix)",
-          "duration": "5:00"
-        },
-        {
-          "num": 2,
-          "title": "Sinistermind - Blue Moon (Original Mix)",
-          "duration": "4:50"
-        },
-        {
-          "num": 3,
-          "title": "Martin Stagnaro - Red Monk (Original Mix)",
-          "duration": "6:04"
-        },
-        {
-          "num": 4,
-          "title": "Malandrø - Floodlight (Original Mix)",
-          "duration": "5:45"
-        },
-        {
-          "num": 5,
-          "title": "Au Revoir - Mischievous Ways (Original Mix)",
-          "duration": "5:31"
-        },
-        {
-          "num": 6,
-          "title": "Asteroid One - Fingers On Paper (Original Mix)",
-          "duration": "5:45"
-        }
-      ],
-      "catalog": "RWN11",
-      "albumId": "1456156895",
-      "tags": [],
-      "type": "album",
-      "beatport": "https://www.beatport.com/es/release/dilatacion-temporal-ii/4170239",
-      "instagram": ""
     }
   ],
   "settings": {

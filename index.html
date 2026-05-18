@@ -24,8 +24,31 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/css/style.css" />
+  <!-- Sitemap Link -->
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+  <!-- JSON-LD Structured Data for Google SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MusicLabel",
+    "@id": "https://rowanunderground.com/#label",
+    "name": "Rowan Underground",
+    "url": "https://rowanunderground.com",
+    "logo": "https://rowanunderground.com/images/logo.png",
+    "description": "Rowan Underground is a hypnotic and mental techno record label based in Argentina and Germany, exploring conceptual, raw and experimental electronic music since 2020.",
+    "foundingDate": "2020",
+    "sameAs": [
+      "https://rowanunderground.bandcamp.com",
+      "https://soundcloud.com/rowanunderground",
+      "https://www.instagram.com/rowanunderground",
+      "https://www.beatport.com/label/rowan-underground/113954"
+    ]
+  }
+  </script>
 </head>
 <body>
+  <!-- Hidden H1 for SEO -->
+  <h1 class="sr-only">Rowan Underground | Hypnotic & Mental Techno Record Label</h1>
 
   <!-- Noise grain overlay -->
   <div class="grain" aria-hidden="true"></div>
@@ -67,11 +90,18 @@
 
   <!-- Releases feed -->
   <section class="releases-section" id="releases">
-    <div class="section-header">
-      <h2 class="section-title">RELEASES</h2>
+    <div class="section-header" id="featured-header">
+      <h2 class="section-title">LATEST RELEASES</h2>
+    </div>
+    <div class="featured-grid" id="featured-releases">
+      <!-- Populated dynamically with the latest 3 releases -->
+    </div>
+
+    <div class="section-header catalog-header hidden" id="catalog-header" style="margin-top: 5rem;">
+      <h2 class="section-title">CATALOG</h2>
     </div>
     <div class="releases-feed" id="releases-feed">
-      <!-- Populated by JS -->
+      <!-- Populated dynamically with the rest of the releases -->
     </div>
     <div class="feed-empty hidden" id="feed-empty">
       <p>No releases found.<br/>Bandcamp sync may take a few minutes.</p>

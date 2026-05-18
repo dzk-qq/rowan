@@ -54,52 +54,133 @@ function showSkeletons(n = 5) {
 
 function renderFeed(releases) {
   const feed  = el('releases-feed');
+  const featuredFeed = el('featured-releases');
+  const featuredHeader = el('featured-header');
+  const catalogHeader = el('catalog-header');
   const empty = el('feed-empty');
 
   if (!releases.length) {
     feed.innerHTML = '';
+    if (featuredFeed) featuredFeed.innerHTML = '';
     empty.classList.remove('hidden');
     return;
   }
 
   empty.classList.add('hidden');
 
-  feed.innerHTML = releases.map((r, i) => `
-    <article
-      class="release-card"
-      id="card-${i}"
-      data-index="${i}"
-      role="button"
-      tabindex="0"
-      aria-label="View details for ${cleanTitle(r.title)} — ${r.artist}"
-    >
-      <div class="release-thumb">
-        ${r.coverArt
-          ? `<img class="release-cover" src="${r.coverArt}" alt="${cleanTitle(r.title)}" loading="lazy" />`
-          : `<div class="release-thumb-placeholder">◈</div>`
-        }
-      </div>
-      <div class="release-info">
-        ${r.catalog ? `<p class="release-catalog">${r.catalog}</p>` : ''}
-        <p class="release-title">${cleanTitle(r.title)}</p>
-        <p class="release-artist">${r.artist || 'Rowan Underground'}</p>
-        <p class="release-date">${formatDate(r.releaseDate)}</p>
-        ${r.tags?.length ? `
-          <div class="release-tags">
-            ${r.tags.slice(0, 5).map(t => `<span class="release-tag">${t}</span>`).join('')}
-          </div>` : ''}
-      </div>
-    </article>
-  `).join('');
+  // Split: top 3 are featured, rest are catalog
+  const featured = releases.slice(0, 3);
+  const catalog = releases.slice(3);
 
-  feed.querySelectorAll('.release-card').forEach(card => {
-    card.addEventListener('click', () => openModal(allReleases[+card.dataset.index]));
-    card.addEventListener('keydown', e => {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        openModal(allReleases[+card.dataset.index]);
+  // Render featured
+  if (featuredFeed) {
+    featuredFeed.innerHTML = featured.map((r, i) => `
+      <article
+        class="featured-card"
+        role="button"
+        tabindex="0"
+        aria-label="View details for ${cleanTitle(r.title)} — ${r.artist}"
+        data-index="${i}"
+      >
+        <div class="featured-thumb">
+          ${r.coverArt
+            ? `<img class="featured-cover" src="${r.coverArt}" alt="${cleanTitle(r.title)}" loading="lazy" />`
+            : `<div class="featured-thumb-placeholder">◈</div>`
+          }
+          <div class="featured-badge">LATEST</div>
+        </div>
+        <div class="featured-info">
+          ${r.catalog ? `<p class="featured-catalog">${r.catalog}</p>` : ''}
+          <p class="featured-title">${cleanTitle(r.title)}</p>
+          <p class="featured-artist">${r.artist || 'Rowan Underground'}</p>
+          <p class="featured-date">${formatDate(r.releaseDate)}</p>
+        </div>
+      </article>
+    `).join('');
+
+    featuredFeed.querySelectorAll('.featured-card').forEach(card => {
+      card.addEventListener('click', () => openModal(releases[+card.dataset.index]));
+      card.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          openModal(releases[+card.dataset.index]);
+        }
+      });
+    });
+  }
+
+  // Render catalog
+  if (catalog.length) {
+    if (catalogHeader) catalogHeader.classList.remove('hidden');
+    feed.innerHTML = catalog.map((r, i) => {
+      const realIndex = i + 3;
+      return `
+        <article
+          class="release-card"
+          role="button"
+          tabindex="0"
+          aria-label="View details for ${cleanTitle(r.title)} — ${r.artist}"
+          data-index="${realIndex}"
+        >
+          <div class="release-thumb">
+            ${r.coverArt
+              ? `<img class="release-cover" src="${r.coverArt}" alt="${cleanTitle(r.title)}" loading="lazy" />`
+              : `<div class="release-thumb-placeholder">◈</div>`
+            }
+          </div>
+          <div class="release-info">
+            ${r.catalog ? `<p class="release-catalog">${r.catalog}</p>` : ''}
+            <p class="release-title">${cleanTitle(r.title)}</p>
+            <p class="release-artist">${r.artist || 'Rowan Underground'}</p>
+            <p class="release-date">${formatDate(r.releaseDate)}</p>
+            ${r.tags?.length ? `
+              <div class="release-tags">
+                ${r.tags.slice(0, 5).map(t => `<span class="release-tag">${t}</span>`).join('')}
+              </div>` : ''}
+          </div>
+        </article>
+      `;
+    }).join('');
+
+    feed.querySelectorAll('.release-card').forEach(card => {
+      card.addEventListener('click', () => openModal(releases[+card.dataset.index]));
+      card.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          openModal(releases[+card.dataset.index]);
+        }
+      });
+    });
+  } else {
+    feed.innerHTML = '';
+    if (catalogHeader) catalogHeader.classList.add('hidden');
+  }
+}
+
+// ── Scroll Reveal Animations ──────────────────────────────────────────────────
+
+function initRevealOnScroll() {
+  if (typeof IntersectionObserver === 'undefined') return;
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+        observer.unobserve(entry.target);
       }
     });
+  }, {
+    threshold: 0.04,
+    rootMargin: '0px 0px -40px 0px'
+  });
+
+  // Target key sections and list elements
+  const elements = document.querySelectorAll(
+    '.releases-section, .merch-section, .events-section, .demos-section, .about-section, .featured-card, .release-card'
+  );
+  elements.forEach(el => {
+    el.classList.add('reveal');
+    observer.observe(el);
   });
 }
 
@@ -142,6 +223,7 @@ async function loadReleases() {
     }
 
     renderFeed(allReleases);
+    initRevealOnScroll();
     if (STATIC) setSyncStatus('ok', `${allReleases.length} releases`);
   } catch (err) {
     console.error('[APP] loadReleases error:', err);
