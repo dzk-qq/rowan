@@ -1,5 +1,5 @@
 /* AUTO-GENERADO por build.js — no editar manualmente */
-/* Build: 2026-05-18T02:41:21.778Z */
+/* Build: 2026-05-18T02:42:03.100Z */
 window.__STATIC_DATA = {
   "releases": [
     {
