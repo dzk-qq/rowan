@@ -1,5 +1,5 @@
 /* AUTO-GENERADO por build.js — no editar manualmente */
-/* Build: 2026-05-18T01:45:24.979Z */
+/* Build: 2026-05-18T01:53:27.534Z */
 window.__STATIC_DATA = {
   "releases": [
     {
@@ -78,6 +78,8 @@ window.__STATIC_DATA = {
       "type": "album"
     },
     {
+      "beatport": "https://www.beatport.com/es/release/dilatacion-temporal-v/5668190",
+      "instagram": "",
       "id": "2030792722",
       "url": "https://rowanunderground.bandcamp.com/album/dilatacion-temporal-v-rwn26",
       "title": "Dilatacion Temporal V",
@@ -135,9 +137,7 @@ window.__STATIC_DATA = {
       "catalog": "RWN26",
       "albumId": "2030792722",
       "tags": [],
-      "type": "album",
-      "beatport": "https://youtube.com",
-      "instagram": "https://instagram.com"
+      "type": "album"
     },
     {
       "id": "1174342290",
