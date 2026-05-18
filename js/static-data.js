@@ -1,5 +1,5 @@
 /* AUTO-GENERADO por build.js — no editar manualmente */
-/* Build: 2026-05-18T02:05:03.528Z */
+/* Build: 2026-05-18T02:10:36.927Z */
 window.__STATIC_DATA = {
   "releases": [
     {
@@ -136,51 +136,6 @@ window.__STATIC_DATA = {
       ],
       "catalog": "RWN26",
       "albumId": "2030792722",
-      "tags": [],
-      "type": "album"
-    },
-    {
-      "id": "1174342290",
-      "url": "https://rowanunderground.bandcamp.com/album/memories-of-past-machines-rwn25",
-      "title": "Memories of Past Machines",
-      "artist": "Noisync, Hypogea, DZK",
-      "description": "",
-      "releaseDate": "14 Jun 2025 00:00:00 GMT",
-      "coverArt": "https://f4.bcbits.com/img/a0996218273_0.jpg",
-      "tracks": [
-        {
-          "num": 1,
-          "title": "#008000 (Original Mix)",
-          "duration": "5:58"
-        },
-        {
-          "num": 2,
-          "title": "No Clear Parameter (Original Mix)",
-          "duration": "6:21"
-        },
-        {
-          "num": 3,
-          "title": "0x7E2 (Original Mix)",
-          "duration": "5:35"
-        },
-        {
-          "num": 4,
-          "title": "Over the Logic (Original Mix)",
-          "duration": "6:05"
-        },
-        {
-          "num": 5,
-          "title": "No Clear Parameter (Hypogea Remix)",
-          "duration": "5:36"
-        },
-        {
-          "num": 6,
-          "title": "#008000 (DZK Remix)",
-          "duration": "5:27"
-        }
-      ],
-      "catalog": "RWN25",
-      "albumId": 1174342290,
       "tags": [],
       "type": "album"
     },
@@ -472,6 +427,63 @@ window.__STATIC_DATA = {
       "instagram": ""
     },
     {
+      "id": "3260583215",
+      "url": "https://rowanunderground.bandcamp.com/album/tuareg-lp-rwn17",
+      "title": "Tuareg LP",
+      "artist": "Leandro Taibbi",
+      "description": "Immerse yourself in a fascinating journey with the highly anticipated release 'Tuareg,' produced by Leandro Taibbi. This LP transports you through mental and hypnotic soundscapes, with each track weaving enveloping textures that draw the listener into the depths of their being. With a unique combination of captivating atmospheres and hypnotic rhythms, 'Tuareg' invites exploration of the inner landscape of the mind, offering a truly immersive auditory experience. Let yourself be carried away by this sonic masterpiece that sparks imagination and nourishes the soul.",
+      "releaseDate": "2024-04-12",
+      "coverArt": "https://f4.bcbits.com/img/a3618015188_0.jpg",
+      "tracks": [
+        {
+          "num": 1,
+          "title": "Sapiente Rectangular (Original Mix)",
+          "duration": "4:15"
+        },
+        {
+          "num": 2,
+          "title": "Resx (Original Mix)",
+          "duration": "6:33"
+        },
+        {
+          "num": 3,
+          "title": "Sigma (Original Mix)",
+          "duration": "6:37"
+        },
+        {
+          "num": 4,
+          "title": "Tuareg (Original Mix)",
+          "duration": "6:37"
+        },
+        {
+          "num": 5,
+          "title": "Micellare (Original Mix)",
+          "duration": "6:46"
+        },
+        {
+          "num": 6,
+          "title": "Sintetico (Original Mix)",
+          "duration": "6:35"
+        },
+        {
+          "num": 7,
+          "title": "Emozioni Eposte (Original Mix)",
+          "duration": "7:05"
+        },
+        {
+          "num": 8,
+          "title": "Riciclo Termico (Original Mix)",
+          "duration": "6:41"
+        }
+      ],
+      "catalog": "RWN17",
+      "albumId": "3260583215",
+      "tags": [],
+      "type": "album",
+      "beatport": "https://www.beatport.com/es/release/tuareg/4481204",
+      "instagram": ""
+    },
+    {
       "id": "1189819453",
       "url": "https://rowanunderground.bandcamp.com/album/nadaism-ep-rwn22",
       "title": "Nadaism EP",
@@ -522,51 +534,6 @@ window.__STATIC_DATA = {
       "type": "album",
       "beatport": "https://www.beatport.com/es/release/nadaism/4709685",
       "instagram": ""
-    },
-    {
-      "id": "1456156895",
-      "url": "https://rowanunderground.bandcamp.com/album/dilatacion-temporal-ii-rwn11",
-      "title": "Dilatacion Temporal II",
-      "artist": "Various Artists",
-      "description": "Artists: Various Artists\r\nTitle: Dilatacion Temporal II\r\nLabel: Rowan Underground\r\nCatalogue: RWN11\r\nFormat: Digital\r\nGenre: Electronic\r\nStyle: Techno\r\nMastered by : www.instagram.com/rowan.mastering/\r\nArtwork by : www.instagram.com/darksider.arg/",
-      "releaseDate": "25 Jul 2023 00:00:00 GMT",
-      "coverArt": "https://f4.bcbits.com/img/a1438385662_0.jpg",
-      "tracks": [
-        {
-          "num": 1,
-          "title": "DZK - El Hombre Hace Planes, Dios Rie (Original Mix)",
-          "duration": "5:00"
-        },
-        {
-          "num": 2,
-          "title": "Sinistermind - Blue Moon (Original Mix)",
-          "duration": "4:50"
-        },
-        {
-          "num": 3,
-          "title": "Martin Stagnaro - Red Monk (Original Mix)",
-          "duration": "6:04"
-        },
-        {
-          "num": 4,
-          "title": "Malandrø - Floodlight (Original Mix)",
-          "duration": "5:45"
-        },
-        {
-          "num": 5,
-          "title": "Au Revoir - Mischievous Ways (Original Mix)",
-          "duration": "5:31"
-        },
-        {
-          "num": 6,
-          "title": "Asteroid One - Fingers On Paper (Original Mix)",
-          "duration": "5:45"
-        }
-      ],
-      "catalog": "RWN11",
-      "albumId": 1456156895,
-      "tags": [],
-      "type": "album"
     },
     {
       "id": "2312132185",
@@ -924,60 +891,50 @@ window.__STATIC_DATA = {
       "type": "album"
     },
     {
-      "id": "3260583215",
-      "url": "https://rowanunderground.bandcamp.com/album/tuareg-lp-rwn17",
-      "title": "Tuareg LP",
-      "artist": "Leandro Taibbi",
-      "description": "Immerse yourself in a fascinating journey with the highly anticipated release 'Tuareg,' produced by Leandro Taibbi. This LP transports you through mental and hypnotic soundscapes, with each track weaving enveloping textures that draw the listener into the depths of their being. With a unique combination of captivating atmospheres and hypnotic rhythms, 'Tuareg' invites exploration of the inner landscape of the mind, offering a truly immersive auditory experience. Let yourself be carried away by this sonic masterpiece that sparks imagination and nourishes the soul.",
+      "id": "1174342290",
+      "url": "https://rowanunderground.bandcamp.com/album/memories-of-past-machines-rwn25",
+      "title": "Memories of Past Machines",
+      "artist": "Noisync, Hypogea, DZK",
+      "description": "Memories of Past Machines is a sonic journey through the digital traces of a forgotten future. This release blends textures, hypnotic pulses, and atmospheres, evoking the nostalgia of an extinguished mechanical era. Each track tells a fragmented memory-echoes of machines that once dreamed of being human. Mental and immersive techno for those seeking to connect with the intangible.",
       "releaseDate": "",
-      "coverArt": "https://f4.bcbits.com/img/a3618015188_0.jpg",
+      "coverArt": "https://f4.bcbits.com/img/a0996218273_0.jpg",
       "tracks": [
         {
           "num": 1,
-          "title": "Sapiente Rectangular (Original Mix)",
-          "duration": "4:15"
+          "title": "#008000 (Original Mix)",
+          "duration": "5:58"
         },
         {
           "num": 2,
-          "title": "Resx (Original Mix)",
-          "duration": "6:33"
+          "title": "No Clear Parameter (Original Mix)",
+          "duration": "6:21"
         },
         {
           "num": 3,
-          "title": "Sigma (Original Mix)",
-          "duration": "6:37"
+          "title": "0x7E2 (Original Mix)",
+          "duration": "5:35"
         },
         {
           "num": 4,
-          "title": "Tuareg (Original Mix)",
-          "duration": "6:37"
+          "title": "Over the Logic (Original Mix)",
+          "duration": "6:05"
         },
         {
           "num": 5,
-          "title": "Micellare (Original Mix)",
-          "duration": "6:46"
+          "title": "No Clear Parameter (Hypogea Remix)",
+          "duration": "5:36"
         },
         {
           "num": 6,
-          "title": "Sintetico (Original Mix)",
-          "duration": "6:35"
-        },
-        {
-          "num": 7,
-          "title": "Emozioni Eposte (Original Mix)",
-          "duration": "7:05"
-        },
-        {
-          "num": 8,
-          "title": "Riciclo Termico (Original Mix)",
-          "duration": "6:41"
+          "title": "#008000 (DZK Remix)",
+          "duration": "5:27"
         }
       ],
-      "catalog": "RWN17",
-      "albumId": "3260583215",
+      "catalog": "RWN25",
+      "albumId": "1174342290",
       "tags": [],
       "type": "album",
-      "beatport": "https://www.beatport.com/es/release/tuareg/4481204",
+      "beatport": "https://www.beatport.com/es/release/memories-of-past-machines/5076351",
       "instagram": ""
     },
     {
@@ -985,8 +942,8 @@ window.__STATIC_DATA = {
       "url": "https://rowanunderground.bandcamp.com/album/shinji-ep-rwn16",
       "title": "Shinji EP",
       "artist": "Lazly Bateman, Stier",
-      "description": "",
-      "releaseDate": null,
+      "description": "Experience the unparalleled energy of four original tracks by Lazly Bateman and a unique remix by Stier, resulting in a meticulously crafted sonic masterpiece designed to elevate your dancefloor experience. Each track is a unique fusion of carefully selected sounds that will immerse you in a mental and emotional journey, creating an unforgettable atmosphere in the clubs. From pulsating rhythms to captivating arrangements, this album is an invitation to liberation and euphoria, destined to become the essential soundtrack for techno enthusiasts and passionate night owls. Discover the perfect blend of captivating beats and hypnotic melodies that will make you lose yourself in the magic of the dancefloor.",
+      "releaseDate": "",
       "coverArt": "https://f4.bcbits.com/img/a8675646_0.jpg",
       "tracks": [
         {
@@ -1019,7 +976,7 @@ window.__STATIC_DATA = {
       "albumId": "694399905",
       "tags": [],
       "type": "album",
-      "beatport": "",
+      "beatport": "https://www.beatport.com/es/release/shinji/4432157",
       "instagram": ""
     },
     {
@@ -1027,8 +984,8 @@ window.__STATIC_DATA = {
       "url": "https://rowanunderground.bandcamp.com/album/pantano-ep-rwn15",
       "title": "Pantano EP",
       "artist": "Tobhias Guerrero, Mikrotakt, Maloog",
-      "description": "",
-      "releaseDate": null,
+      "description": "Organic percussion rhythms, juicy grooves, and innate talent. This is what Tobhias Guerrero brings us in his EP 'Pantano,' composed of two original tracks perfect for the dance floor, and remixes by two talented artists. Mikrotakt contributes a high-energy remix with looped rhythms. Maloog brings us a remix with trippy soundscapes accompanied by a solid groove.",
+      "releaseDate": "",
       "coverArt": "https://f4.bcbits.com/img/a617437181_0.jpg",
       "tracks": [
         {
@@ -1056,7 +1013,7 @@ window.__STATIC_DATA = {
       "albumId": "1544748818",
       "tags": [],
       "type": "album",
-      "beatport": "",
+      "beatport": "https://www.beatport.com/es/release/pantano/4375686",
       "instagram": ""
     },
     {
@@ -1064,8 +1021,8 @@ window.__STATIC_DATA = {
       "url": "https://rowanunderground.bandcamp.com/album/underground-river-ep-rwn14",
       "title": "Underground River EP",
       "artist": "DAS, Juan Trujillo, Russ (ARG), Martin Stagnaro",
-      "description": "",
-      "releaseDate": null,
+      "description": "DAS's unique artistic prowess is evident in every track, skillfully merging techno elements with a hypnotic allure that engages both the mind and body. Through the 'Underground River EP', DAS not only demonstrates a mastery of crafting immersive soundscapes but also collaborates with notable artists like Martin Stagnaro and Russ (ARG), heightening the auditory. This release extends an invitation to plunge into the depths of the underground, where a hypnotic trance awaits, merging the realms of mind and body in an unforgettable fusion.",
+      "releaseDate": "",
       "coverArt": "https://f4.bcbits.com/img/a495933452_0.jpg",
       "tracks": [
         {
@@ -1103,7 +1060,7 @@ window.__STATIC_DATA = {
       "albumId": "3483546001",
       "tags": [],
       "type": "album",
-      "beatport": "",
+      "beatport": "https://www.beatport.com/es/release/underground-river/4348040",
       "instagram": ""
     },
     {
@@ -1248,6 +1205,53 @@ window.__STATIC_DATA = {
       "tags": [],
       "type": "album",
       "beatport": "",
+      "instagram": ""
+    },
+    {
+      "id": "1456156895",
+      "url": "https://rowanunderground.bandcamp.com/album/dilatacion-temporal-ii-rwn11",
+      "title": "Dilatacion Temporal II",
+      "artist": "Various Artists",
+      "description": "Dilatacion Temporal II' is a diverse and eclectic release that will immerse you in an unparalleled musical journey. Each artist has left their unique mark on this album, and the combination of styles and approaches ensures a truly enriching listening experience. Get ready to dive into the sound of our record label and discover a world of emotions and sensations through music from Maszara, Au Revoir, Sinistermind, Martin Stagnaro, Asteroid One and Malandro.",
+      "releaseDate": "",
+      "coverArt": "https://f4.bcbits.com/img/a1438385662_0.jpg",
+      "tracks": [
+        {
+          "num": 1,
+          "title": "DZK - El Hombre Hace Planes, Dios Rie (Original Mix)",
+          "duration": "5:00"
+        },
+        {
+          "num": 2,
+          "title": "Sinistermind - Blue Moon (Original Mix)",
+          "duration": "4:50"
+        },
+        {
+          "num": 3,
+          "title": "Martin Stagnaro - Red Monk (Original Mix)",
+          "duration": "6:04"
+        },
+        {
+          "num": 4,
+          "title": "Malandrø - Floodlight (Original Mix)",
+          "duration": "5:45"
+        },
+        {
+          "num": 5,
+          "title": "Au Revoir - Mischievous Ways (Original Mix)",
+          "duration": "5:31"
+        },
+        {
+          "num": 6,
+          "title": "Asteroid One - Fingers On Paper (Original Mix)",
+          "duration": "5:45"
+        }
+      ],
+      "catalog": "RWN11",
+      "albumId": "1456156895",
+      "tags": [],
+      "type": "album",
+      "beatport": "https://www.beatport.com/es/release/dilatacion-temporal-ii/4170239",
       "instagram": ""
     }
   ],
