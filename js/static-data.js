@@ -1,5 +1,5 @@
 /* AUTO-GENERADO por build.js — no editar manualmente */
-/* Build: 2026-05-18T02:01:42.636Z */
+/* Build: 2026-05-18T02:05:03.528Z */
 window.__STATIC_DATA = {
   "releases": [
     {
@@ -333,7 +333,7 @@ window.__STATIC_DATA = {
       "tags": [],
       "type": "album",
       "beatport": "https://www.beatport.com/es/release/human-exposure-to-vacuum/4674642",
-      "instagram": "https://instagram.com"
+      "instagram": ""
     },
     {
       "id": "1742165565",
@@ -423,6 +423,53 @@ window.__STATIC_DATA = {
       "type": "album",
       "beatport": "https://www.beatport.com/es/release/dilatacion-temporal-iv-anniversary/4593310",
       "instagram": "https://instagram.com"
+    },
+    {
+      "id": "2257085826",
+      "url": "https://rowanunderground.bandcamp.com/album/ephemeral-ep-rwn18",
+      "title": "Ephemeral EP",
+      "artist": "MMØ, Mwamwa, Leopold Bär, Nicko Shuo",
+      "description": "Ephemeral is an episode of hypnotic techno that immerses you in deep and enveloping mental atmospheres. With a powerful bassline and an relentless groove, this sonic journey takes you through intricate soundscapes, propelling you into a state of deep trance. Get ready for a transformative experience that awakens the mind, shakes the body, and uplifts the spirit.",
+      "releaseDate": "2024-05-11",
+      "coverArt": "https://f4.bcbits.com/img/a3719707720_0.jpg",
+      "tracks": [
+        {
+          "num": 1,
+          "title": "Ephemeral (Original Mix)",
+          "duration": "5:12"
+        },
+        {
+          "num": 2,
+          "title": "Lasting (Original Mix)",
+          "duration": "5:12"
+        },
+        {
+          "num": 3,
+          "title": "Sea Of Possibilities (Original Mix)",
+          "duration": "5:12"
+        },
+        {
+          "num": 4,
+          "title": "Ephemeral (Mwamwa Remix)",
+          "duration": "5:11"
+        },
+        {
+          "num": 5,
+          "title": "Lasting (Leopold Bär Remix)",
+          "duration": "5:12"
+        },
+        {
+          "num": 6,
+          "title": "Sea Of Possibilities (Nicko Shuo Remix)",
+          "duration": "4:55"
+        }
+      ],
+      "catalog": "RWN18",
+      "albumId": "2257085826",
+      "tags": [],
+      "type": "album",
+      "beatport": "https://www.beatport.com/es/release/ephemeral/4520645",
+      "instagram": ""
     },
     {
       "id": "1189819453",
@@ -877,59 +924,12 @@ window.__STATIC_DATA = {
       "type": "album"
     },
     {
-      "id": "2257085826",
-      "url": "https://rowanunderground.bandcamp.com/album/ephemeral-ep-rwn18",
-      "title": "Ephemeral EP",
-      "artist": "MMØ, Mwamwa, Leopold Bär, Nicko Shuo",
-      "description": "",
-      "releaseDate": null,
-      "coverArt": "https://f4.bcbits.com/img/a3719707720_0.jpg",
-      "tracks": [
-        {
-          "num": 1,
-          "title": "Ephemeral (Original Mix)",
-          "duration": "5:12"
-        },
-        {
-          "num": 2,
-          "title": "Lasting (Original Mix)",
-          "duration": "5:12"
-        },
-        {
-          "num": 3,
-          "title": "Sea Of Possibilities (Original Mix)",
-          "duration": "5:12"
-        },
-        {
-          "num": 4,
-          "title": "Ephemeral (Mwamwa Remix)",
-          "duration": "5:11"
-        },
-        {
-          "num": 5,
-          "title": "Lasting (Leopold Bär Remix)",
-          "duration": "5:12"
-        },
-        {
-          "num": 6,
-          "title": "Sea Of Possibilities (Nicko Shuo Remix)",
-          "duration": "4:55"
-        }
-      ],
-      "catalog": "RWN18",
-      "albumId": "2257085826",
-      "tags": [],
-      "type": "album",
-      "beatport": "",
-      "instagram": ""
-    },
-    {
       "id": "3260583215",
       "url": "https://rowanunderground.bandcamp.com/album/tuareg-lp-rwn17",
       "title": "Tuareg LP",
       "artist": "Leandro Taibbi",
-      "description": "",
-      "releaseDate": null,
+      "description": "Immerse yourself in a fascinating journey with the highly anticipated release 'Tuareg,' produced by Leandro Taibbi. This LP transports you through mental and hypnotic soundscapes, with each track weaving enveloping textures that draw the listener into the depths of their being. With a unique combination of captivating atmospheres and hypnotic rhythms, 'Tuareg' invites exploration of the inner landscape of the mind, offering a truly immersive auditory experience. Let yourself be carried away by this sonic masterpiece that sparks imagination and nourishes the soul.",
+      "releaseDate": "",
       "coverArt": "https://f4.bcbits.com/img/a3618015188_0.jpg",
       "tracks": [
         {
@@ -977,7 +977,7 @@ window.__STATIC_DATA = {
       "albumId": "3260583215",
       "tags": [],
       "type": "album",
-      "beatport": "",
+      "beatport": "https://www.beatport.com/es/release/tuareg/4481204",
       "instagram": ""
     },
     {
