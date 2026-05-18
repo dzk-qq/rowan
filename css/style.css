@@ -794,7 +794,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 /* ── Responsive ──────────────────────────────────────────────────────────────── */
 @media (max-width: 992px) {
   .site-header { padding: 1rem 1.25rem; }
-  .nav { display: none; flex-direction: column; position: fixed; top: 60px; left: 0; right: 0; height: auto; background: #03040f; padding: 2rem; gap: 1.5rem; align-items: flex-start; z-index: 99; border-bottom: 1px solid var(--border); box-shadow: 0 20px 40px rgba(0,0,0,0.8); }
+  .nav { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; height: auto; background: #03040f; padding: 2rem; gap: 1.5rem; align-items: flex-start; z-index: 99; border-bottom: 1px solid var(--border); box-shadow: 0 20px 40px rgba(0,0,0,0.8); }
   .nav.open { display: flex; }
   .nav-toggle { display: flex; }
 
@@ -822,6 +822,12 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .modal-player-col { border-left: none; border-top: 1px solid var(--border); min-height: 340px; position: relative; }
   .modal-player { position: absolute; inset: 0; }
 
+  .about-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    max-width: 320px;
+  }
   .about-section { padding: 4rem 1.25rem; }
   .site-footer { padding: 1.25rem; }
 }
