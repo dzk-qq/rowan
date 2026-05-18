@@ -1,10 +1,25 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rowan Underground</title>
-  <meta name="description" content="Rowan Underground — Sello discográfico de techno hipnótico y música electrónica de fondo profundo." />
+  <meta name="description" content="Rowan Underground — Hypnotic and mental techno label based in Argentina and Germany. Curated soundscapes and conceptual electronic releases since 2020." />
+
+  <!-- Open Graph (WhatsApp, Telegram, Facebook, etc.) -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://rowanunderground.com" />
+  <meta property="og:title"       content="Rowan Underground" />
+  <meta property="og:description" content="Hypnotic and mental techno label based in Argentina and Germany. Exploring the raw and experimental edges of electronic music since 2020." />
+  <meta property="og:image"       content="https://rowanunderground.com/images/logo.png" />
+  <meta property="og:locale"      content="en_US" />
+
+  <!-- Twitter / X card -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Rowan Underground" />
+  <meta name="twitter:description" content="Hypnotic and mental techno label based in Argentina and Germany." />
+  <meta name="twitter:image"       content="https://rowanunderground.com/images/logo.png" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
@@ -59,8 +74,8 @@
       <!-- Populated by JS -->
     </div>
     <div class="feed-empty hidden" id="feed-empty">
-      <p>No se encontraron lanzamientos.<br/>El sync con Bandcamp puede tardar unos minutos.</p>
-      <button class="btn-primary" id="btn-retry">Reintentar</button>
+      <p>No releases found.<br/>Bandcamp sync may take a few minutes.</p>
+      <button class="btn-primary" id="btn-retry">Try again</button>
     </div>
   </section>
 
@@ -122,7 +137,7 @@
   <!-- Release Detail Modal -->
   <div class="modal-overlay hidden" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
     <div class="modal" id="modal">
-      <button class="modal-close" id="modal-close" aria-label="Cerrar">✕</button>
+      <button class="modal-close" id="modal-close" aria-label="Close">✕</button>
       <div class="modal-inner">
         <div class="modal-left" id="modal-left">
           <img class="modal-cover" id="modal-cover" src="" alt="" />

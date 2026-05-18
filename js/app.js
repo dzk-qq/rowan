@@ -13,7 +13,7 @@ function formatDate(str) {
   if (!str) return '';
   const d = new Date(str);
   if (isNaN(d)) return str;
-  return d.toLocaleDateString('es-AR', { year: 'numeric', month: 'long', day: 'numeric' });
+  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 }
 
 function cleanTitle(t) {
@@ -71,7 +71,7 @@ function renderFeed(releases) {
       data-index="${i}"
       role="button"
       tabindex="0"
-      aria-label="Ver detalles de ${cleanTitle(r.title)} — ${r.artist}"
+      aria-label="View details for ${cleanTitle(r.title)} — ${r.artist}"
     >
       <div class="release-thumb">
         ${r.coverArt
@@ -117,7 +117,7 @@ function setSyncStatus(state, text) {
 
 async function loadReleases() {
   showSkeletons(6);
-  setSyncStatus('syncing', 'Cargando...');
+  setSyncStatus('syncing', 'Loading...');
   try {
     if (STATIC) {
       // Modo estático: datos embebidos por build.js (Cloudflare Pages)
@@ -135,7 +135,7 @@ async function loadReleases() {
       const status = await fetch(`${API}/status`).then(r => r.json()).catch(() => null);
       if (status?.lastSync) {
         const d = new Date(status.lastSync);
-        setSyncStatus('ok', `Sync: ${d.toLocaleTimeString('es-AR', { hour: '2-digit', minute: '2-digit' })}`);
+        setSyncStatus('ok', `Sync: ${d.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })}`);
       } else {
         setSyncStatus('ok', `${allReleases.length} releases`);
       }
@@ -147,7 +147,7 @@ async function loadReleases() {
     console.error('[APP] loadReleases error:', err);
     el('releases-feed').innerHTML = '';
     el('feed-empty').classList.remove('hidden');
-    setSyncStatus('error', 'Error de carga');
+    setSyncStatus('error', 'Connection error');
   }
 }
 
@@ -268,7 +268,7 @@ function renderMerch(items) {
   const grid = el('merch-grid');
   if (!grid) return;
   if (!items.length) {
-    grid.innerHTML = '<p class="feed-empty">No hay merch disponible en este momento.</p>';
+    grid.innerHTML = '<p class="feed-empty">No merch available right now.</p>';
     return;
   }
   grid.innerHTML = items.map(m => `
@@ -295,7 +295,7 @@ function renderEvents(items) {
   const list = el('events-list');
   if (!list) return;
   if (!items.length) {
-    list.innerHTML = '<p class="feed-empty">No hay eventos próximos.</p>';
+    list.innerHTML = '<p class="feed-empty">No upcoming events.</p>';
     return;
   }
   
@@ -304,7 +304,7 @@ function renderEvents(items) {
   list.innerHTML = sorted.map(e => {
     const d = new Date(e.date);
     const day = d.getDate();
-    const month = d.toLocaleDateString('es-AR', { month: 'short' });
+    const month = d.toLocaleDateString('en-US', { month: 'short' });
     return `
       <div class="event-card">
         <div class="event-date-box">
