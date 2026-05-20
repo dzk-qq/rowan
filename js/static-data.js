@@ -1,7 +1,196 @@
 /* AUTO-GENERADO por build.js — no editar manualmente */
-/* Build: 2026-05-20T20:11:38.744Z */
+/* Build: 2026-05-20T20:12:40.935Z */
 window.__STATIC_DATA = {
   "releases": [
+    {
+      "id": "3149399009",
+      "url": "https://rowanunderground.bandcamp.com/album/disociacion-lp-rwn27",
+      "title": "Disociacion",
+      "artist": "Asteroid One",
+      "description": "Dissociation is the disconnection between thought, surroundings, and identity. In his latest output for Rowan Underground, Asteroid One translates this psychological phenomenon into an immersive auditory experience with his new LP: 'Disociacion'.\n\nStaying true to the label's ethos, this release is a deep exploration of hypnotic techno architecture. The original tracks build a labyrinth of cyclical rhythms and dense atmospheres, designed to induce a trance-like state on the dancefloor where reality is suspended, and sound takes full control.\n\nTo expand this universe, the release features an exceptional roster of remixers who reinterpret the concept from different angles of the underground spectrum: Tarmac, H3 (CH), LeopoldoIII, and Hakkon. Each remix delivers a unique texture-from deep, mental grooves to raw, driving cuts-ensuring versatility for any serious techno set.\n\nRWN27 is not just music; it is an invitation to disconnect in order to connect.",
+      "releaseDate": "2026-02-06",
+      "coverArt": "/uploads/cover-1779072030228.webp",
+      "tracks": [
+        {
+          "num": 1,
+          "title": "Aquarium (Original Mix)",
+          "duration": "7:23"
+        },
+        {
+          "num": 2,
+          "title": "Dynamo Reflex (Tarmac Remix)",
+          "duration": "6:25"
+        },
+        {
+          "num": 3,
+          "title": "Thunderbolt (H3 (CH) Remix)",
+          "duration": "5:41"
+        },
+        {
+          "num": 4,
+          "title": "Collapsed Server (Original Mix)",
+          "duration": "6:33"
+        },
+        {
+          "num": 5,
+          "title": "Disociacion (LeopoldoIII Remix)",
+          "duration": "6:24"
+        },
+        {
+          "num": 6,
+          "title": "Disociacion (Original Mix)",
+          "duration": "6:33"
+        },
+        {
+          "num": 7,
+          "title": "Doppelganger (Original Mix)",
+          "duration": "7:04"
+        },
+        {
+          "num": 8,
+          "title": "Dynamo Reflex (Original Mix)",
+          "duration": "6:05"
+        },
+        {
+          "num": 9,
+          "title": "Mares del Olvido (Original Mix)",
+          "duration": "5:30"
+        },
+        {
+          "num": 10,
+          "title": "Space Textures (Hakkon Remix)",
+          "duration": "5:54"
+        },
+        {
+          "num": 11,
+          "title": "Space Textures (Original Mix)",
+          "duration": "5:59"
+        },
+        {
+          "num": 12,
+          "title": "Thunderbolt (Original Mix)",
+          "duration": "5:42"
+        }
+      ],
+      "catalog": "RWN27",
+      "albumId": "3149399009",
+      "tags": [],
+      "type": "album",
+      "beatport": "https://www.beatport.com/es/release/disociacion/5762919",
+      "instagram": "",
+      "active": true
+    },
+    {
+      "beatport": "https://www.beatport.com/es/release/dilatacion-temporal-v/5668190",
+      "instagram": "",
+      "id": "2030792722",
+      "url": "https://rowanunderground.bandcamp.com/album/dilatacion-temporal-v-rwn26",
+      "title": "Dilatacion Temporal V",
+      "artist": "Choked, Facundo Rondinella, Juxøn, LeopoldoIII, ØR1GAMË, Renwick, RSD-86, Tarmac, Vitams",
+      "description": "",
+      "releaseDate": "2026-01-02",
+      "coverArt": "/uploads/cover-1779071755836.webp",
+      "tracks": [
+        {
+          "num": 1,
+          "title": "Choked - Revelacion de lo Escondido (Original Mix)",
+          "duration": "5:43"
+        },
+        {
+          "num": 2,
+          "title": "Facundo Rondinella - Cognitive Drift (Original Mix)",
+          "duration": "5:44"
+        },
+        {
+          "num": 3,
+          "title": "Juxøn - Distorted Anger (Original Mix)",
+          "duration": "5:34"
+        },
+        {
+          "num": 4,
+          "title": "LeopoldoIII - Ruido Interno (Original Mix)",
+          "duration": "4:53"
+        },
+        {
+          "num": 5,
+          "title": "ØR1GAMË - Opera de Lujuria (Original Mix)",
+          "duration": "5:06"
+        },
+        {
+          "num": 6,
+          "title": "Renwick - WP4 (Original Mix)",
+          "duration": "5:09"
+        },
+        {
+          "num": 7,
+          "title": "RSD-86 - Distorsión Dimensional (Original Mix)",
+          "duration": "6:43"
+        },
+        {
+          "num": 8,
+          "title": "Tarmac - Las Grandes Pantallas (Original Mix)",
+          "duration": "5:43"
+        },
+        {
+          "num": 9,
+          "title": "Vitams - Solid (Original Mix)",
+          "duration": "6:27"
+        }
+      ],
+      "catalog": "RWN26",
+      "albumId": "2030792722",
+      "tags": [],
+      "type": "album",
+      "active": true
+    },
+    {
+      "id": "1174342290",
+      "url": "https://rowanunderground.bandcamp.com/album/memories-of-past-machines-rwn25",
+      "title": "Memories Of Past Machines",
+      "artist": "Noisync",
+      "description": "Memories of Past Machines is a sonic journey through the digital traces of a forgotten future. This release blends textures, hypnotic pulses, and atmospheres, evoking the nostalgia of an extinguished mechanical era. Each track tells a fragmented memory-echoes of machines that once dreamed of being human. Mental and immersive techno for those seeking to connect with the intangible.",
+      "releaseDate": "2025-06-14",
+      "coverArt": "/uploads/cover-1779073112751.webp",
+      "tracks": [
+        {
+          "num": 1,
+          "title": "#008000 (Original Mix)",
+          "duration": "5:58"
+        },
+        {
+          "num": 2,
+          "title": "No Clear Parameter (Original Mix)",
+          "duration": "6:21"
+        },
+        {
+          "num": 3,
+          "title": "0x7E2 (Original Mix)",
+          "duration": "5:35"
+        },
+        {
+          "num": 4,
+          "title": "Over the Logic (Original Mix)",
+          "duration": "6:05"
+        },
+        {
+          "num": 5,
+          "title": "No Clear Parameter (Hypogea Remix)",
+          "duration": "5:36"
+        },
+        {
+          "num": 6,
+          "title": "#008000 (DZK Remix)",
+          "duration": "5:27"
+        }
+      ],
+      "catalog": "RWN25",
+      "albumId": "1174342290",
+      "tags": [],
+      "type": "album",
+      "beatport": "https://www.beatport.com/release/memories-of-past-machines/5076351",
+      "instagram": "",
+      "active": true
+    },
     {
       "id": "331232407",
       "url": "https://rowanunderground.bandcamp.com/album/the-brighter-side-of-suffering-ep-rwn24",
