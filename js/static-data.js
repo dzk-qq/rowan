@@ -1,5 +1,5 @@
 /* AUTO-GENERADO por build.js — no editar manualmente */
-/* Build: 2026-05-20T19:36:36.488Z */
+/* Build: 2026-05-20T19:45:00.243Z */
 window.__STATIC_DATA = {
   "releases": [
     {
@@ -18,7 +18,7 @@ window.__STATIC_DATA = {
       "type": "album",
       "tracks": [],
       "manual": true,
-      "active": true,
+      "active": false,
       "createdAt": "2026-05-20T19:32:55.491Z"
     },
     {
