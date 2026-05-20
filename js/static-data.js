@@ -1,26 +1,7 @@
 /* AUTO-GENERADO por build.js — no editar manualmente */
-/* Build: 2026-05-20T20:14:18.242Z */
+/* Build: 2026-05-20T20:15:27.728Z */
 window.__STATIC_DATA = {
   "releases": [
-    {
-      "id": "1779308053568",
-      "title": "test",
-      "artist": "",
-      "catalog": "ROWAN___",
-      "releaseDate": "",
-      "description": "",
-      "coverArt": "",
-      "url": "",
-      "beatport": "",
-      "instagram": "",
-      "albumId": "",
-      "tags": [],
-      "type": "album",
-      "tracks": [],
-      "manual": true,
-      "active": true,
-      "createdAt": "2026-05-20T20:14:13.568Z"
-    },
     {
       "id": "3149399009",
       "url": "https://rowanunderground.bandcamp.com/album/disociacion-lp-rwn27",
