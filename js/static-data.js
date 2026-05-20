@@ -1,7 +1,26 @@
 /* AUTO-GENERADO por build.js — no editar manualmente */
-/* Build: 2026-05-18T04:37:53.885Z */
+/* Build: 2026-05-20T19:36:36.488Z */
 window.__STATIC_DATA = {
   "releases": [
+    {
+      "id": "1779305575491",
+      "title": "Disociacion",
+      "artist": "Asteroid One",
+      "catalog": "ROWAN___",
+      "releaseDate": "2026-02-06",
+      "description": "Dissociation is the disconnection between thought, surroundings, and identity. In his latest output for Rowan Underground, Asteroid One translates this psychological phenomenon into an immersive auditory experience with his new LP: 'Disociacion'.\n\nStaying true to the label's ethos, this release is a deep exploration of hypnotic techno architecture. The original tracks build a labyrinth of cyclical rhythms and dense atmospheres, designed to induce a trance-like state on the dancefloor where reality is suspended, and sound takes full control.\n\nTo expand this universe, the release features an exceptional roster of remixers who reinterpret the concept from different angles of the underground spectrum: Tarmac, H3 (CH), LeopoldoIII, and Hakkon. Each remix delivers a unique texture-from deep, mental grooves to raw, driving cuts-ensuring versatility for any serious techno set.\n\nRWN27 is not just music; it is an invitation to disconnect in order to connect.",
+      "coverArt": "/uploads/cover-1779305569895.webp",
+      "url": "https://rowanunderground.bandcamp.com/album/disociacion-lp-rwn27",
+      "beatport": "https://www.beatport.com/es/release/disociacion/5762919",
+      "instagram": "",
+      "albumId": "3149399009",
+      "tags": [],
+      "type": "album",
+      "tracks": [],
+      "manual": true,
+      "active": true,
+      "createdAt": "2026-05-20T19:32:55.491Z"
+    },
     {
       "id": "3149399009",
       "url": "https://rowanunderground.bandcamp.com/album/disociacion-lp-rwn27",
